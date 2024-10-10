@@ -5,3 +5,5 @@
 
 ### Opis članov
 Lep pozdrav jaz sem Alen Nađfaluši in prihajam iz Koroške. Moj hobij je nogomet ki sem ga treneral tudi 13 let. Zdaj ga igram samo kadar imam čas.
+
+Sem Aljaž Kramberger in prihajam z Radencov blizina Murske Sobote, in sem obiskoval SPTŠ smer Strojni Tehnik. Obožujem avte in motore, nimam nekih specificnih hobijov. Poslusam skoro vse vrste glasbe. Doma imamo 2 psa 2 macki pa 1 kuscarja, bla sta dva, samo en je sel po gobe (urml). 
