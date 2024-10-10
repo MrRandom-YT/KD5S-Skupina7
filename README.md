@@ -1,7 +1,5 @@
 ## Wiki
 ### Pozdravljeni v "IMEPROJEKTA" - Spletna Skupnost za Igralce
-#### Kazalo
-[Table of Contents]
 #### O Projektu
 "IMEPROJEKTA" je Spletna Skupnost za Igralce, ki omogoča povezovanje, deljenje in raziskovanje novih iger z podobno miselnimi posamezniki. Naš projekt cilja k ustvaritvi statične spletne strani, ki bo povezala igralce v eno veliko skupnost.
 #### Razlog izbire tega projekta
