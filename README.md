@@ -8,7 +8,7 @@ Za izdel+avo Spletne Skupnosti za Igralce smo se odločili zaradi našega skupne
 + Povezovanje raznih igralcev iz raznih platform in generacij.
 + Omogočati platformo, kjer lahko tudi izdelovalci video iger vidijo mnenja svojih igralcev. 
 ### **Člani Skupine**
- Alen Nađfaluši
++ Alen Nađfaluši
 + Aljaž Kramberger
 + David Majcen
 + Aljaž Lackovič
