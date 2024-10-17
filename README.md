@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Vloga mnenj igralcev pri razvoju iger
 
 ## Uvod
@@ -44,4 +44,4 @@ Mnenja igralcev igrajo ključno vlogo v procesu razvoja video iger. Sodobni razv
 
 ## Zaključek
 Mnenja igralcev so nepogrešljiv del razvoja video iger. Z aktivnim sodelovanjem igralcev lahko razvijalci ustvarijo boljše, bolj priljubljene igre, ki ustrezajo potrebam in željam njihove publike. V svetu, kjer so igralci bolj povezani kot kdaj koli prej, je ključnega pomena, da razvijalci prisluhnejo njihovim glasom in idejam. S tem ne le izboljšajo svoje izdelke, ampak tudi ustvarijo trajne vezi s svojo skupnostjo, kar vodi do uspešnejših in trajnejših iger.
-```
+
