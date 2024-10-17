@@ -22,6 +22,6 @@ Za izdel+avo Spletne Skupnosti za Igralce smo se odločili zaradi našega skupne
 + Sem ***Aljaž Lackovič***, prihajam iz Laškega, živim v Dramljah v bližini Šentjurja. V prostem času rad programiram ter ustvarjam videoigre. Pred FERI sem obiskoval Računalniško šolo v Celju (Šolski Center Celje KER). Doma imamo 3 mačke, 3 pse ter nekaj malega kmečkih živali, 2 bika in nekaj kokoši.
 
 ## **TL;DR**
-Želimo ustvariti spletno aplikacijo, kjer se lahko igralci povežejo med seboj in delijo izkušnje in mnenja
+Želimo ustvariti spletno aplikacijo, kjer se lahko igralci povežejo med seboj in delijo izkušnje in mnenj
 
 
