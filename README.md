@@ -1,27 +1,14 @@
-# **Pozdravljeni v _"IMEPROJEKTA"_ - Spletna Skupnost za Igralce**
-### **O Projektu**
-***"IMEPROJEKTA"*** je Spletna Skupnost za Igralce, ki omogoča povezovanje, deljenje in raziskovanje novih iger z podobno miselnimi posamezniki. Naš projekt cilja k ustvaritvi statične spletne strani, ki bo povezala igralce v eno veliko skupnost.
-### **Razlog izbire tega projekta**
-Za izdel+avo Spletne Skupnosti za Igralce smo se odločili zaradi našega skupnega interesa v računalniške igre in ker se zavedamo pomembnosti platforme, kjer si lahko igralci izmenjujejo svoja mnenja in izkušnje.
-### **Objektivi Projekta**
-+ Ustvariti uporabnikom prijazno platformo za komuniciranje z uporabniku prijaznim vmesnikom.
-+ Povezovanje raznih igralcev iz raznih platform in generacij.
-+ Omogočati platformo, kjer lahko tudi izdelovalci video iger vidijo mnenja svojih igralcev. 
-### **Člani Skupine**
-+ Alen Nađfaluši
-+ Aljaž Kramberger
-+ David Majcen
-+ Aljaž Lackovič
-### **Opis Članov**
-+ Lep pozdrav jaz sem ***Alen Nađfaluši*** in prihajam iz Koroške. Moj hobi je nogomet ki sem ga treniral tudi 13 let. Zdaj ga igram samo kadar imam čas.
+# Seminarska naloga: Tehnologija in Inovacije v Spletni Skupnosti "IMEPROJEKTA" 
+## Uvod 
+Spletne skupnosti za igralce postajajo ključni del sodobne igralne kulture, saj omogočajo igralcem, da se povežejo, delijo izkušnje in raziskujejo nove igre. V središču tega fenomena je tehnologija, ki omogoča interakcijo med uporabniki in oblikuje način, kako se igralci povezujemo. Ta seminarska naloga se osredotoča na vlogo tehnologije in inovacij v okviru projekta "IMEPROJEKTA", spletne skupnosti, ki si prizadeva za ustvarjanje dinamičnega in interaktivnega okolja za igralce. 
+## Pomen tehnologije v spletnih skupnostih 
+Tehnologija je osnovni gradnik spletnih skupnosti. V okviru "IMEPROJEKTA" bomo izkoristili različne tehnološke rešitve, ki bodo olajšale komunikacijo med člani skupnosti. Forumi bodo postali osrednje mesto za razprave o igrah, strategijah in novostih v industriji. Ta platforma bo omogočila igralcem, da postavljajo vprašanja, delijo mnenja in sodelujejo v konstruktivnih debatah. 
+## Uporaba forumov in klepetalnic 
+Forumi bodo ključni za izmenjavo mnenj in strategij. Člani skupnosti se bodo lahko vključili v razprave o svojih najljubših igrah ter delili nasvete, kar bo povečalo skupno znanje in izkušnje. Klepetalnice bodo dodale element takojšnjega komuniciranja, kar bo prispevalo k bolj živahni interakciji. Ta oblika komunikacije bo omogočila hitrejše usklajevanje skupnih iger in dogodkov, kar bo dodatno okrepilo občutek skupnosti. 
+## Inovacije v igrah 
+Poleg klasičnih komunikacijskih orodij bomo raziskovali nove tehnologije, kot so virtualna in obogatena resničnost. Te inovacije prinašajo nove možnosti za interaktivne izkušnje, ki presegajo tradicionalne meje. Virtualni dogodki in igre v obogateni resničnosti lahko igralcem omogočijo edinstvene izkušnje, ki jih ne morejo doživeti na drugih platformah. S tem pristopom bomo zagotovili, da "IMEPROJEKTA" ostane na čelu digitalne evolucije v svetu iger.
+## Zaključek 
+Tehnologija in inovacije so ključni elementi, ki bodo oblikovali prihodnost spletne skupnosti "IMEPROJEKTA". Z uporabo naprednih orodij in rešitev bomo ustvarili privlačno in dostopno platformo, kjer se lahko igralci povežejo, učijo in delijo svoje izkušnje. Z vključevanjem novih tehnologij in pristopov želimo zagotoviti, da bo naša skupnost dinamična in relevantna v nenehno spreminjajočem se svetu iger. S tem bomo pripomogli k rasti in razvoju igralne kulture ter zagotovili, da "IMEPROJEKTA" postane ključno središče za igralce vseh generacij.
 
-+ Sem ***Aljaž Kramberger*** in prihajam z Radencev v bližini Murske Sobote, in sem obiskoval SPTŠ smer Strojni Tehnik. Obožujem avte in motorje, nimam nekih specifičnih hobijev. Poslušam skoro vse vrste glasbe. Doma imamo 2 psa 2 mački pa 1 kuščarja, bla sta dva, samo en je sel po gobe (urml). 
-
-+ HI. Sem ***David Majcen*** in isto prihajam iz koroške. Trenutno je moj hobi fitnes. Ko sem bil še doma sem v prostem času še igral klavir. V srednjo šolo sem hodil v ravne na koroškem na računalniško (mid šola).
-
-+ Sem ***Aljaž Lackovič***, prihajam iz Laškega, živim v Dramljah v bližini Šentjurja. V prostem času rad programiram ter ustvarjam videoigre. Pred FERI sem obiskoval Računalniško šolo v Celju (Šolski Center Celje KER). Doma imamo 3 mačke, 3 pse ter nekaj malega kmečkih živali, 2 bika in nekaj kokoši.
-
-## **TL;DR**
-Želimo ustvariti spletno aplikacijo, kjer se lahko igralci povežejo med seboj in delijo izkušnje in mnenj
 
 
