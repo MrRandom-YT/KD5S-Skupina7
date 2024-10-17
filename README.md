@@ -6,7 +6,7 @@ Pravilna dokumentacija je bistvenega pomena iz več razlogov. Saj zagotavlja jas
 ### ***Vrste Dokumentacija***
 V razvoju iger obstaja več vrst dokumentacije, ki igrajo ključno vlogo pri usklajevanju dela ekipe in zagotavljanju uspešnega zaključka projekta. Vsaka vrsta dokumentacije ima svoj namen in prispeva k različnim vidikom razvoja igre.
 + #### ***Dokument o oblikovanju igre***
-  GDD je osrednji dokument, ki vsebuje podrobnosti o konceptu igre, mehanikah, zgodbi, likih, in nivojih. Ta dokument služi kot vodič za celotno razvojno ekipo in zagotavlja skupno razumevanje vizije igre. Vključuje tudi informacije o ciljni publiki, platformah in morebitnih posebnih zahtevah. [1](#1)
+  GDD je osrednji dokument, ki vsebuje podrobnosti o konceptu igre, mehanikah, zgodbi, likih, in nivojih. Ta dokument služi kot vodič za celotno razvojno ekipo in zagotavlja skupno razumevanje vizije igre. Vključuje tudi informacije o ciljni publiki, platformah in morebitnih posebnih zahtevah. [n1](#1)
 + #### ***Dokumentacija za upravljanje projekta***
   Tehnična dokumentacija obravnava vidike programske opreme in kode. Vključuje specifikacije API-jev, smernice za kodiranje, arhitekturne odločitve in podatke o sistemskih zahtevah. Ta dokument je ključnega pomena za programerje in inženirje, saj zagotavlja jasno razumevanje tehničnih vidikov projekta. [2](#2)
 + #### ***Uporabniška dokumentacija***
