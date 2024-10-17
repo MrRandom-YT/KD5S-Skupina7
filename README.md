@@ -1,27 +1,51 @@
-# **Pozdravljeni v _"IMEPROJEKTA"_ - Spletna Skupnost za Igralce**
-### **O Projektu**
-***"IMEPROJEKTA"*** je Spletna Skupnost za Igralce, ki omogoča povezovanje, deljenje in raziskovanje novih iger z podobno miselnimi posamezniki. Naš projekt cilja k ustvaritvi statične spletne strani, ki bo povezala igralce v eno veliko skupnost.
-### **Razlog izbire tega projekta**
-Za izdel+avo Spletne Skupnosti za Igralce smo se odločili zaradi našega skupnega interesa v računalniške igre in ker se zavedamo pomembnosti platforme, kjer si lahko igralci izmenjujejo svoja mnenja in izkušnje.
-### **Objektivi Projekta**
-+ Ustvariti uporabnikom prijazno platformo za komuniciranje z uporabniku prijaznim vmesnikom.
-+ Povezovanje raznih igralcev iz raznih platform in generacij.
-+ Omogočati platformo, kjer lahko tudi izdelovalci video iger vidijo mnenja svojih igralcev. 
-### **Člani Skupine**
-+ Alen Nađfaluši
-+ Aljaž Kramberger
-+ David Majcen
-+ Aljaž Lackovič
-### **Opis Članov**
-+ Lep pozdrav jaz sem ***Alen Nađfaluši*** in prihajam iz Koroške. Moj hobi je nogomet ki sem ga treniral tudi 13 let. Zdaj ga igram samo kadar imam čas.
+### Vloga mnenj igralcev pri razvoju iger
+#### Uvod
+Mnenja igralcev igrajo ključno vlogo v procesu razvoja video iger. Sodobni razvijalci iger se zavedajo, da so igralci njihova največja publika in da njihova mnenja in povratne informacije lahko pomembno vplivajo na končni izdelek. V tem članku bomo raziskali, kako lahko igralci vplivajo na razvoj iger in zakaj je to pomembno za razvijalce.
 
-+ Sem ***Aljaž Kramberger*** in prihajam z Radencev v bližini Murske Sobote, in sem obiskoval SPTŠ smer Strojni Tehnik. Obožujem avte in motorje, nimam nekih specifičnih hobijev. Poslušam skoro vse vrste glasbe. Doma imamo 2 psa 2 mački pa 1 kuščarja, bla sta dva, samo en je sel po gobe (urml). 
+#### Kako igralci vplivajo na razvoj iger
 
-+ HI. Sem ***David Majcen*** in isto prihajam iz koroške. Trenutno je moj hobi fitnes. Ko sem bil še doma sem v prostem času še igral klavir. V srednjo šolo sem hodil v ravne na koroškem na računalniško (mid šola).
+1. **Povratne informacije med razvojem**
+   - **Beta testiranja**: Pred izdajo igre pogosto potekajo beta testiranja, kjer lahko igralci preizkusijo igro in podajo povratne informacije. To pomaga razvijalcem odkriti napake in izboljšati uporabniško izkušnjo.
+   - **Ankete in vprašalniki**: Mnogi razvijalci izvajajo ankete, da bi dobili mnenja igralcev o določenih mehanikah ali vsebini, kar jim omogoča, da prilagodijo igro pred uradno izdajo.
 
-+ Sem ***Aljaž Lackovič***, prihajam iz Laškega, živim v Dramljah v bližini Šentjurja. V prostem času rad programiram ter ustvarjam videoigre. Pred FERI sem obiskoval Računalniško šolo v Celju (Šolski Center Celje KER). Doma imamo 3 mačke, 3 pse ter nekaj malega kmečkih živali, 2 bika in nekaj kokoši.
+2. **Sodelovanje v skupnostih**
+   - **Forum in socialna omrežja**: Igralci aktivno razpravljajo o igrah na forumih in socialnih omrežjih. Razvijalci pogosto spremljajo te razprave, da bi razumeli, kaj igralci želijo ali česa si ne želijo.
+   - **YouTube in Twitch**: Vsebina, ki jo ustvarjajo igralci, lahko vpliva na priljubljenost igre. Razvijalci pogosto analizirajo reakcije na video vsebine, da bi ugotovili, kateri elementi igre so privlačni.
 
-## **TL;DR**
-Želimo ustvariti spletno aplikacijo, kjer se lahko igralci povežejo med seboj in delijo izkušnje in mnenja
+3. **Povratne informacije po izidu**
+   - **Posodobitve in popravki**: Igralci pogosto delijo svoja mnenja o novih posodobitvah. Razvijalci lahko na podlagi teh povratnih informacij hitro ukrepajo in prilagodijo igro.
+   - **Dolgoročna podpora**: Igralci, ki aktivno sodelujejo v skupnosti, lahko sporočijo, kateri deli igre so jim najbolj všeč ali kateri so slabi, kar vodi do izboljšav in dodatne vsebine.
+
+4. **Vključevanje igralcev v razvoj**
+   - **Crowdsourcing idej**: Nekateri razvijalci vključujejo igralce v proces idejnega zbiranja, kjer lahko predlagajo nove mehanike, like ali zgodbe. To povečuje občutek lastništva igralcev nad igro.
+   - **Vsebinski ustvarjalci**: Igralci, ki ustvarjajo modove ali dodatno vsebino, pogosto vplivajo na igro. Razvijalci lahko te ideje sprejmejo in vključijo v uradne posodobitve.
+
+5. **Uporaba analitike**
+   - **Zbiranje podatkov**: S sodobnimi analitičnimi orodji lahko razvijalci spremljajo, kako igralci igrajo njihove igre. To vključuje podatke o tem, kje se igralci ustavijo, kateri nivoji so najbolj priljubljeni in kje se pojavijo težave.
+   - **Učinkovitost mehanik**: Razvijalci lahko analizirajo, katere mehanike so najbolj uporabljene in prilagodijo igro na podlagi teh podatkov.
+
+#### Zakaj je to pomembno za razvijalce
+
+1. **Izboljšana uporabniška izkušnja**
+   - S poslušanjem igralcev razvijalci izboljšajo uporabniško izkušnjo in zagotovijo, da igra ustreza pričakovanjem publike. To vodi do večje zadovoljstva in zvestobe igralcev.
+
+2. **Spremljanje trendov**
+   - Mnenja igralcev lahko razvijalcem pomagajo prepoznati nove trende v industriji. Na primer, če se igralci močno zanimajo za določene mehanike ali teme, lahko razvijalci to vključijo v prihodnje projekte.
+
+3. **Povečanje prodaje in priljubljenosti**
+   - Igre, ki so razvite ob upoštevanju mnenj igralcev, pogosto dosegajo boljše rezultate na trgu. Zadovoljni igralci so bolj verjetno, da bodo igro priporočili drugim, kar povečuje prodajo.
+
+4. **Gradnja skupnosti**
+   - Razvijalci, ki aktivno komunicirajo z igralci, gradijo močnejše in bolj angažirane skupnosti. To povečuje možnosti za prihodnje projekte, saj zvesti igralci po navadi podpirajo razvijalce pri njihovih novih izdajah.
+
+5. **Izboljšanje ugleda razvijalcev**
+   - Razvijalci, ki upoštevajo mnenja svojih igralcev, pogosto pridobijo boljši ugled v industriji. Pozitiven odnos s skupnostjo lahko vodi do večjih priložnosti za sodelovanje in financiranje.
+
+6. **Inovacije in ustvarjalnost**
+   - Mnenja igralcev lahko spodbujajo inovacije. Igralci pogosto predlagajo nove ideje, ki jih razvijalci morda niso upoštevali, kar lahko vodi do svežih in izvirnih konceptov.
+
+#### Zaključek
+Mnenja igralcev so nepogrešljiv del razvoja video iger. Z aktivnim sodelovanjem igralcev lahko razvijalci ustvarijo boljše, bolj priljubljene igre, ki ustrezajo potrebam in željam njihove publike. V svetu, kjer so igralci bolj povezani kot kdaj koli prej, je ključnega pomena, da razvijalci prisluhnejo njihovim glasom in idejam. S tem ne le izboljšajo svoje izdelke, ampak tudi ustvarijo trajne vezi s svojo skupnostjo, kar vodi do uspešnejših in trajnejših iger.
+
 
 
