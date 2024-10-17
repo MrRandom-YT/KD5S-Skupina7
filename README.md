@@ -27,12 +27,11 @@ Skupaj te lastnosti in prakse lahko izboljšujejo proces razvoja iger ter obogat
 ### ***Viri***
 
 #### Kazalo Virov
-* [Viri](#viri)
-  * [Teaching software project management through roleplay via game development](#ref1)
-  * [GDGSE: Game Development with Global Software Engineering](#ref2)
-  * [What is a Game Design Document?](#ref3)
-  * [On the similarities and differences between program documentation and test documentation](#ref4)
-  * [Requirements for Testers and Reviewers of User Documentation](#ref5)
+* [Teaching software project management through roleplay via game development](#ref1)
+* [GDGSE: Game Development with Global Software Engineering](#ref2)
+* [What is a Game Design Document?](#ref3)
+* [On the similarities and differences between program documentation and test documentation](#ref4)
+* [Requirements for Testers and Reviewers of User Documentation](#ref5)
 
 #### Citacije Virov  
 * <a id="ref1"></a>[1]: N. Kremer-Herman, "Teaching software project management through roleplay via game development," in *Journal of Computer Science in College*, vol. 38, no. 1, pp. 48-57, Nov. 2022.
