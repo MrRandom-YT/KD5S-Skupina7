@@ -1,4 +1,6 @@
 # ***Dokumentacije***
+## Kazalo Vsebin
+* [Pomembnost pravilne priprave dokumentacije in poročil v igrah](#pomembnost-pravilne-priprave-dokumentacije-in-poročil-v-igrah)
 ## ***Pomembnost pravilne priprave dokumentacije in poročil v igrah***
 ## Kazalo Virov
 * [Viri](#viri)
