@@ -6,13 +6,13 @@ Pravilna dokumentacija je bistvenega pomena iz več razlogov. Saj zagotavlja jas
 ### ***Vrste Dokumentacija***
 V razvoju iger obstaja več vrst dokumentacije, ki igrajo ključno vlogo pri usklajevanju dela ekipe in zagotavljanju uspešnega zaključka projekta. Vsaka vrsta dokumentacije ima svoj namen in prispeva k različnim vidikom razvoja igre.
 + #### ***Dokument o oblikovanju igre***
-  GDD je osrednji dokument, ki vsebuje podrobnosti o konceptu igre, mehanikah, zgodbi, likih, in nivojih. Ta dokument služi kot vodič za celotno razvojno ekipo in zagotavlja skupno razumevanje vizije igre. Vključuje tudi informacije o ciljni publiki, platformah in morebitnih posebnih zahtevah. [[1]](ref1)
+  GDD je osrednji dokument, ki vsebuje podrobnosti o konceptu igre, mehanikah, zgodbi, likih, in nivojih. Ta dokument služi kot vodič za celotno razvojno ekipo in zagotavlja skupno razumevanje vizije igre. Vključuje tudi informacije o ciljni publiki, platformah in morebitnih posebnih zahtevah. [[1]](#ref1)
 + #### ***Dokumentacija za upravljanje projekta***
-  Tehnična dokumentacija obravnava vidike programske opreme in kode. Vključuje specifikacije API-jev, smernice za kodiranje, arhitekturne odločitve in podatke o sistemskih zahtevah. Ta dokument je ključnega pomena za programerje in inženirje, saj zagotavlja jasno razumevanje tehničnih vidikov projekta. [[2]](ref2)
+  Tehnična dokumentacija obravnava vidike programske opreme in kode. Vključuje specifikacije API-jev, smernice za kodiranje, arhitekturne odločitve in podatke o sistemskih zahtevah. Ta dokument je ključnega pomena za programerje in inženirje, saj zagotavlja jasno razumevanje tehničnih vidikov projekta. [[2]](#ref2)
 + #### ***Uporabniška dokumentacija***
-  Ta vrsta dokumentacije vključuje načrte projekta, časovnice, dodeljevanje nalog in spremljanje napredka. Pomaga ekipi pri organizaciji dela in zagotavlja, da so vsi člani seznanjeni s svojimi odgovornostmi ter s splošnim napredkom projekta. [[3]](ref3)
+  Ta vrsta dokumentacije vključuje načrte projekta, časovnice, dodeljevanje nalog in spremljanje napredka. Pomaga ekipi pri organizaciji dela in zagotavlja, da so vsi člani seznanjeni s svojimi odgovornostmi ter s splošnim napredkom projekta. [[3]](#ref3)
 + #### ***Dokumentacija o testiranju***
-  Uporabniška dokumentacija je namenjena igralcem in vključuje navodila za uporabo, pogosta vprašanja (FAQ) ter podporne materiale. Ta dokument je ključen za zagotavljanje pozitivne uporabniške izkušnje, saj igralcem pomaga razumeti igro in njene mehanike. [[4]](ref4)
+  Uporabniška dokumentacija je namenjena igralcem in vključuje navodila za uporabo, pogosta vprašanja (FAQ) ter podporne materiale. Ta dokument je ključen za zagotavljanje pozitivne uporabniške izkušnje, saj igralcem pomaga razumeti igro in njene mehanike. [[4]](#ref4)
 ### ***Prednosti Dobre Dokumentacje***
 Ob uporabi enotnega formata in jezika po celotni dokumentaciji, rednem posodabljanju dokumentov in dobri vizualizaciji lahko dosežemo zvišano učinkovitost , sodelovanje in ohranjanje znanja.
 + Učinkovitost se lahko zelo zviša z jasnostjo in enotnostjo dokumentacije, saj drugim v ekipi omogoča jasno in enostavno razumevanje dokumentacije in tako ne pride do nesporazumov in napak.
