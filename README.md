@@ -1,5 +1,12 @@
 # ***Dokumentacije***
 ## ***Pomembnost pravilne priprave dokumentacije in poročil v igrah***
+## Kazalo Virov
+* [Viri](#viri)
+  * [1](#ref1)
+  * [2](#ref2)
+  * [3](#ref3)
+  * [4](#ref4)
+  * [5](#ref5)
 ### ***Uvod***
 V svetu razvoja iger je dokumentacija ključnega pomena, saj služi kot temelj za uspešno izvajanje projektov ter omogoča izdelovalcem dodatkov (Modders) lažje izdelovanje dodatkov za skupnost. Omogoča pa tudi lažji razvoj in odpravljanje napak, ki jih igralci odkrijejo med igranjem iger. Glavni cilj dokumentacije je torej zagotoviti jasen in dostopen vir informacij, ki ga lahko vsi člani razvojne ekipe enostavno razumejo in uporabljajo. Takšna dokumentacija je pa lahko tudi javna za izdelovalce dodatkov ali pa lahko poenostavljena in omejena le na glavne funkcije, kar pa lahko omejuje stvari, ki jih lahko izdelovalci dodatkov naredijo.
 Pravilna dokumentacija je bistvenega pomena iz več razlogov. Saj zagotavlja jasnost v komunikaciji znotraj ekipe, kar zmanjšuje možnost nesporazumov in napak. Omogoča tudi lažji razvoj dodatkov in razširitev za igre. Dokumentiranje tudi spodbuja sodelovanje med člani saj natančno določa vloge in odgovornost ter pričakovanja. S tem lahko vsi razumejo svoje vloge in stvari, ki jih morajo storiti. Na koncu lahko dobro pripravljena dokumentacija deluje kot dragocen vir znanja za člane ekipe in tiste, ki želijo pomagati izven ekipe, da se igra lahko razširi. 
