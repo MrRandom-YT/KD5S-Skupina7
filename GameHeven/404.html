@@ -1,177 +1,178 @@
 <!DOCTYPE html>
 
 <style>
-/* General Styling */
-:root {
-  --green: #00ffcc;
-  --hoverGreen: #00e6b8;
-  --bg1: #1a1a1a;
-  --bg2: #2d2d2d;
-  --fg1: #f0f0f0;
+  /* General Styling */
+  :root {
+    --green: #00ffcc;
+    --hoverGreen: #00e6b8;
+    --bg1: #1a1a1a;
+    --bg2: #2d2d2d;
+    --fg1: #f0f0f0;
 
-  --mainGradient1: #00bd97bf;
-  --mainGradient2: #1a1a1aBF;
-}
+    --mainGradient1: #00bd97bf;
+    --mainGradient2: #1a1a1aBF;
+  }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: var(--bg1);
-  color: var(--fg1);
-  margin: 0;
-  padding: 0;
-}
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg1);
+    color: var(--fg1);
+    margin: 0;
+    padding: 0;
+  }
 
-/* Navbar */
-.navbar {
-  background-color: var(--bg2);
-  padding: 1rem 2rem;
-}
+  /* Navbar */
+  .navbar {
+    background-color: var(--bg2);
+    padding: 1rem 2rem;
+  }
 
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.navbar .logo {
-  font-size: 1.8rem;
-  color: var(--green);
-}
+  .navbar .logo {
+    font-size: 1.8rem;
+    color: var(--green);
+  }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-}
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
 
-.nav-links li {
-  margin: 0 1rem;
-}
+  .nav-links li {
+    margin: 0 1rem;
+  }
 
-.nav-links a {
-  color: var(--fg1);
-  text-decoration: none;
-}
+  .nav-links a {
+    color: var(--fg1);
+    text-decoration: none;
+  }
 
-.nav-links .button {
-  background-color: var(--green);
-  color: var(--bg1);
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-}
+  .nav-links .button {
+    background-color: var(--green);
+    color: var(--bg1);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
 
-/* Hero Section */
-.error-hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 65vh;
-  padding: 2rem;
-  background-image: linear-gradient(to bottom right, var(--mainGradient1), var(--mainGradient2)), url('background.jpg');
-  background-size: cover;
-  background-position: center;
+  /* Hero Section */
+  .error-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 65vh;
+    padding: 2rem;
+    background-image: linear-gradient(to bottom right, var(--mainGradient1), var(--mainGradient2)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
 
-  border-top: var(--hoverGreen) solid 1px;
-  border-bottom: var(--hoverGreen) solid 1px;
-}
+    border-top: var(--hoverGreen) solid 1px;
+    border-bottom: var(--hoverGreen) solid 1px;
+  }
 
-.error-content {
-  max-width: 50%;
-}
+  .error-content {
+    max-width: 50%;
+  }
 
-.error-content h2 {
-  font-size: 2.5rem;
-  margin: 1rem 0;
-  color: var(--green);
-}
+  .error-content h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: var(--green);
+  }
 
-.error-content p {
-  font-size: 1.2rem;
-  margin: 1rem 0;
-}
+  .error-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
 
-.error-actions {
-  margin-top: 2rem;
-}
+  .error-actions {
+    margin-top: 2rem;
+  }
 
-.error-actions .button {
-  display: inline-block;
-  padding: 0.8rem 1.5rem;
-  margin: 0.5rem;
-  background-color: var(--green);
-  color: var(--bg1);
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
-}
+  .error-actions .button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    background-color: var(--green);
+    color: var(--bg1);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
 
-.error-actions .button:hover {
-  background-color: var(--hoverGreen);
-}
+  .error-actions .button:hover {
+    background-color: var(--hoverGreen);
+  }
 
-.error-animation img {
-  max-width: 400px;
-  filter: drop-shadow(0 0 10px var(--green));
-}
+  .error-animation img {
+    max-width: 400px;
+    filter: drop-shadow(0 0 10px var(--green));
+  }
 
-/* Suggestions Section */
-.suggestions {
-  background-color: var(--bg2);
-  padding: 2rem 0;
-  text-align: center;
-}
+  /* Suggestions Section */
+  .suggestions {
+    background-color: var(--bg2);
+    padding: 2rem 0;
+    text-align: center;
+  }
 
-.suggestions h2 {
-  font-size: 2rem;
-  color: var(--green);
-  margin-bottom: 1rem;
-}
+  .suggestions h2 {
+    font-size: 2rem;
+    color: var(--green);
+    margin-bottom: 1rem;
+  }
 
-.suggestion-links {
-  list-style: none;
-  padding: 0;
-}
+  .suggestion-links {
+    list-style: none;
+    padding: 0;
+  }
 
-.suggestion-links li {
-  margin: 0.5rem 0;
-}
+  .suggestion-links li {
+    margin: 0.5rem 0;
+  }
 
-.suggestion-links a {
-  color: var(--fg1);
-  text-decoration: none;
-  font-size: 1.2rem;
-}
+  .suggestion-links a {
+    color: var(--fg1);
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
 
-.suggestion-links a:hover {
-  color: var(--green);
-  text-decoration: underline;
-}
+  .suggestion-links a:hover {
+    color: var(--green);
+    text-decoration: underline;
+  }
 
-/* Footer */
-footer {
-  background-color: var(--bg2);
-  padding: 1rem;
-  text-align: center;
-}
+  /* Footer */
+  footer {
+    background-color: var(--bg2);
+    padding: 1rem;
+    text-align: center;
+  }
 
-footer p {
-  color: var(--fg1);
-  margin: 0.5rem 0;
-}
+  footer p {
+    color: var(--fg1);
+    margin: 0.5rem 0;
+  }
 
-footer a {
-  color: var(--green);
-  text-decoration: none;
-}
-
+  footer a {
+    color: var(--green);
+    text-decoration: none;
+  }
 </style>
 
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>404 - Lost in the GameHaven</title>
 </head>
+
 <body>
 
   <!-- Navigation Bar -->
@@ -179,11 +180,11 @@ footer a {
     <div class="container">
       <h1 class="logo">GameHaven</h1>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="forums.html">Forums</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="Placeholder.html" class="button">Login</a></li>
+        <li><a href="index.html">Domov</a></li>
+        <li><a href="forums.html">Forumi</a></li>
+        <li><a href="about.html">O Nas</a></li>
+        <li><a href="contact.html">Kontakti</a></li>
+        <li><a href="comingsoon.html" class="button">Prijava</a></li>
       </ul>
     </div>
   </nav>
@@ -205,11 +206,10 @@ footer a {
 
   <!-- Footer -->
   <footer>
-    <div class="container">
-      <p>&copy; 2024 AllaOasis. All Rights Reserved.</p>
-      <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
-    </div>
+    <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>
+    <p><a href="privacy.html">Politika Zasebnosti</a> | <a href="terms.html">Pogoji Storitev</a></p>
   </footer>
 
 </body>
+
 </html>
