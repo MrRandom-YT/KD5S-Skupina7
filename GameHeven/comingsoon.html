@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<style>
+  /* General Styling */
+  :root {
+    --green: #00ffcc;
+    --hoverGreen: #00e6b8;
+    --bg1: #1a1a1a;
+    --bg2: #2d2d2d;
+    --fg1: #f0f0f0;
+
+    --mainGradient1: #00bd97bf;
+    --mainGradient2: #1a1a1aBF;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-color: var(--bg2);
+    padding: 1rem 2rem;
+  }
+
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar .logo {
+    font-size: 1.8rem;
+    color: var(--green);
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0 1rem;
+  }
+
+  .nav-links a {
+    color: var(--fg1);
+    text-decoration: none;
+  }
+
+  .nav-links .button {
+    background-color: var(--green);
+    color: var(--bg1);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+
+  /* Coming Soon Container */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coming-soon-container {
+    text-align: center;
+    max-width: 600px;
+  }
+
+  .coming-soon-container .logo {
+    font-size: 3rem;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+  }
+
+  .coming-soon-container h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+
+  .coming-soon-container p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  /* Countdown Timer */
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    padding: 1rem 0;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+
+  .countdown div {
+    text-align: center;
+  }
+
+  .countdown span {
+    font-size: 2.5rem;
+    color: #00ffcc;
+  }
+
+  .countdown p {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+  }
+
+  .countdown p {
+    font-size: 1rem;
+    color: #f0f0f0;
+  }
+</style>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameHaven - Coming Soon</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">GameHaven</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="forums.html">Forums</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="comingsoon.html" class="button">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Coming Soon Content -->
+  <div class="container">
+    <div class="coming-soon-container">
+      <h1 class="logo">GameHaven</h1>
+      <h2>Something epic is on its way!</h2>
+      <p>We’re leveling up and will launch soon. Stay tuned!</p>
+      <p>The scheduled launch time is subject to change.</p>
+      <div id="countdown" class="countdown">
+        <div><span id="days">00</span>
+          <p>Days</p>
+        </div>
+        <div><span id="hours">00</span>
+          <p>Hours</p>
+        </div>
+        <div><span id="minutes">00</span>
+          <p>Minutes</p>
+        </div>
+        <div><span id="seconds">00</span>
+          <p>Seconds</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<script>
+
+  // Set the launch date
+  const launchDate = new Date("2025-12-31T00:00:00").getTime();
+
+  const updateCountdown = () => {
+    const now = new Date().getTime();
+    const timeLeft = launchDate - now;
+
+    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+    document.getElementById("days").textContent = days.toString().padStart(2, "0");
+    document.getElementById("hours").textContent = hours.toString().padStart(2, "0");
+    document.getElementById("minutes").textContent = minutes.toString().padStart(2, "0");
+    document.getElementById("seconds").textContent = seconds.toString().padStart(2, "0");
+
+    if (timeLeft < 0) {
+      clearInterval(timerInterval);
+      document.querySelector(".countdown").textContent = "We're Live!";
+    }
+  };
+
+  // Update countdown every second
+  const timerInterval = setInterval(updateCountdown, 1000);
+  updateCountdown();
+
+
+</script>

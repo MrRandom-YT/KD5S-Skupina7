@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+/* Base */
+:root {
+  --green: #00ffcc;
+  --hoverGreen: #00e6b8;
+  --bg1: #1a1a1a;
+  --bg2: #2d2d2d;
+  --fg1: #f0f0f0;
+
+  --mainGradient1: #00bd97bf;
+  --mainGradient2: #1a1a1aBF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg1);
+  color: var(--fg1);
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--bg2);
+  padding: 1rem 2rem;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  color: var(--green);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  color: var(--fg1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links .button {
+  background-color: var(--green);
+  color: var(--bg1);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.nav-links .button:hover {
+  background-color: var(--hoverGreen);
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+  background-image: linear-gradient(to bottom right, var(--mainGradient1), var(--mainGradient2)), url('background.jpg');
+  background-size: cover;
+  color: var(--fg1);
+
+  border-top: var(--hoverGreen) solid 1px;
+  border-bottom: var(--hoverGreen) solid 1px;
+}
+
+.main .content h2 {
+  font-size: 3rem;
+}
+
+.main .content span {
+  color: var(--green);
+}
+
+.main .content p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--green);
+  color: var(--bg1);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.cta-button:hover {
+  background-color: var(--hoverGreen);
+}
+
+/* Features Section */
+.features {
+  padding: 4rem 2rem;
+  background-color: var(--bg2);
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--green);
+}
+
+.feature-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: var(--bg1);
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+  color: var(--fg1);
+}
+
+.card h3 {
+  color: var(--green);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: var(--bg2);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+footer p {
+  color: var(--fg1);
+}
+
+footer a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+</style>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameHaven - Poveži & Igraj</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">GameHaven</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Domob</a></li>
+        <li><a href="forums.html">Forumi</a></li>
+        <li><a href="about.html">O Nas</a></li>
+        <li><a href="contact.html">Kontakti</a></li>
+        <li><a href="comingsoon.html" class="button">Prijava</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <header class="main" id="home">
+    <div class="content">
+      <h2>Pozdravljeni v <span>GameHaven</span></h2>
+      <p>Poveži se z igralci po celem svetu, pridruži skupinam, in nadgradi svoje izkušnje.</p>
+      <a href="forums.html" class="cta-button">Pridruži se!</a>
+    </div>
+  </header>
+  <section class="features">
+    <div class="container">
+      <h2>Zakaj izbrati GameHaven?</h2>
+      <div class="feature-cards">
+        <div class="card">
+          <h3>Povezovanje v skupine</h3>
+          <p>Ustvari ali pa se pridruži skupinam z igralci, ki si delijo vašo strastnost.</p>
+        </div>
+        <div class="card">
+          <h3>Pogovor z ostalimi</h3>
+          <p>Vstani povezan z ostalimi igralci z pomočjo pogovora v realnem času.</p>
+        </div>
+        <div class="card">
+          <h3>Forumi & Dogodki</h3>
+          <p>Pridruži se pogovorom, dokodkom in tekmovanjem, ki jih organizirajo člani.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>
+      <p><a href="privacy.html">Politika Zasebnosti</a> | <a href="terms.html">Pogoji Storitev</a></p>
+    </div>
+  </footer>
+</body>
+</html>

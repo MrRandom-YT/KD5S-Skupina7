@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - GameHaven</title>
+    <style>
+        :root {
+            --green: #00ffcc;
+            --hoverGreen: #00e6b8;
+            --bg1: #1a1a1a;
+            --bg2: #2d2d2d;
+            --fg1: #f0f0f0;
+        }
+
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg1);
+            color: var(--fg1);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: var(--bg2);
+            padding: 1rem 2rem;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 1.8rem;
+            color: var(--green);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 1rem;
+        }
+
+        .nav-links a {
+            color: var(--fg1);
+            text-decoration: none;
+        }
+
+        .nav-links .button {
+            background-color: var(--green);
+            color: var(--bg1);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+
+        .nav-links .button:hover {
+            background-color: var(--hoverGreen);
+        }
+
+        /* About Section */
+        .about-container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: var(--bg2);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            flex-grow: 1;
+        }
+
+        .about-container h2 {
+            color: var(--green);
+            margin-bottom: 1rem;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        .about-container p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .team-section {
+            margin-top: 2rem;
+        }
+
+        .team-section h3 {
+            text-align: center;
+            color: var(--green);
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .team-grid {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .team-card {
+            background-color: var(--bg1);
+            padding: 1.5rem;
+            border-radius: 6px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .team-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 2px solid var(--green);
+        }
+
+        .team-card h4 {
+            color: var(--green);
+            margin-bottom: 0.5rem;
+        }
+
+        .team-card p {
+            margin: 0.2rem 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg2);
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: auto;
+        }
+
+        footer p {
+            color: var(--fg1);
+            margin: 0.5rem 0;
+        }
+
+        footer a {
+            color: var(--green);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <h1 class="logo">GameHaven</h1>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="forums.html">Forums</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="comingsoon.html" class="button">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <section class="about-container">
+        <h2>About Us</h2>
+        <p>
+            Welcome to <strong>GameHaven</strong>, a platform created by gamers, for gamers! 
+            Our mission is to connect players worldwide, foster friendships, and enhance the gaming experience.
+        </p>
+        <p>
+            Whether you’re here to find your next guild, discuss strategies, or simply meet like-minded people, 
+            GameHaven is your go-to destination.
+        </p>
+
+        <section class="team-section">
+            <h3>Meet Our Team</h3>
+            <div class="team-grid">
+                <div class="team-card">
+                    <h4>Alen Nađfaluši</h4>
+                    <p>FERI Student</p>
+                    <p>alen.nadfalusi@student.um.si</p>
+                </div>
+                <div class="team-card">
+                    <h4>David Majcen</h4>
+                    <p>FERI Student</p>
+                    <p>david.majcen2@student.um.si</p>
+                </div>
+                <div class="team-card">
+                    <h4>Aljaž Lackovič</h4>
+                    <p>FERI Student</p>
+                    <p>aljaz.lackovic@student.um.si</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AllaOasis. All Rights Reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    </footer>
+</body>
+
+</html>
