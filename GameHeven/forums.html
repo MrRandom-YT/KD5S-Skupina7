@@ -5,74 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forums - GameHaven</title>
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="base.css">
     <style>
-        :root {
-            --green: #00ffcc;
-            --hoverGreen: #00e6b8;
-            --bg1: #1a1a1a;
-            --bg2: #2d2d2d;
-            --fg1: #f0f0f0;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            height: 100%;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-color: var(--bg1);
             color: var(--fg1);
             display: flex;
             flex-direction: column;
-        }
-
-        /* Navbar */
-        .navbar {
-            background-color: var(--bg2);
-            padding: 1rem 2rem;
-        }
-
-        .navbar .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .navbar .logo {
-            font-size: 1.8rem;
-            color: var(--green);
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-        }
-
-        .nav-links li {
-            margin: 0 1rem;
-        }
-
-        .nav-links a {
-            color: var(--fg1);
-            text-decoration: none;
-        }
-
-        .nav-links .button {
-            background-color: var(--green);
-            color: var(--bg1);
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-        }
-
-        .nav-links .button:hover {
-            background-color: var(--hoverGreen);
         }
 
         /* Forum Section */
@@ -130,23 +71,6 @@
             font-size: 0.9rem;
             color: var(--green);
         }
-
-        /* Footer */
-        footer {
-            background-color: var(--bg2);
-            text-align: center;
-            padding: 1.5rem 0;
-        }
-
-        footer p {
-            color: var(--fg1);
-            margin: 0.5rem 0;
-        }
-
-        footer a {
-            color: var(--green);
-            text-decoration: none;
-        }
     </style>
 </head>
 
@@ -164,43 +88,44 @@
         </div>
     </nav>
 
+    </main>
     <section class="forum-container">
-        <h2>GameHaven Forums</h2>
+        <h2>GameHaven Forumi</h2>
 
-        <!-- Example Category -->
+        <!-- Primer kategorije -->
         <div class="forum-category">
-            <h3>General Discussions</h3>
+            <h3>Splošne razprave</h3>
             <ul class="forum-threads">
                 <li>
-                    <a href="thread.html">What’s your favorite game right now?</a>
-                    <span class="thread-meta">12 replies</span>
+                    <a href="threadFavGame.html">Katera je trenutno vaša najljubša igra?</a>
+                    <span class="thread-meta">12 odgovorov</span>
                 </li>
                 <li>
-                    <a href="#">Upcoming game releases</a>
-                    <span class="thread-meta">8 replies</span>
+                    <a href="#">Prihajajoče igre</a>
+                    <span class="thread-meta">8 odgovorov</span>
                 </li>
                 <li>
-                    <a href="#">Gaming setups: Share yours!</a>
-                    <span class="thread-meta">15 replies</span>
+                    <a href="#">Igralne postavitve: Delite svojo!</a>
+                    <span class="thread-meta">15 odgovorov</span>
                 </li>
             </ul>
         </div>
-
-        <!-- Another Example Category -->
+        <!-- Drug primer kategorije -->
         <div class="forum-category">
-            <h3>Guild Recruitment</h3>
+            <h3>Igralne strategije</h3>
             <ul class="forum-threads">
                 <li>
-                    <a href="#">Looking for FPS players</a>
-                    <span class="thread-meta">5 replies</span>
+                    <a href="#">Najboljši način za napredovanje v WoW</a>
+                    <span class="thread-meta">5 odgovorov</span>
                 </li>
                 <li>
-                    <a href="#">Join our RPG guild!</a>
-                    <span class="thread-meta">10 replies</span>
+                    <a href="#">Kako postati odporen na Tilt?</a>
+                    <span class="thread-meta">10 odgovorov</span>
                 </li>
             </ul>
         </div>
     </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>

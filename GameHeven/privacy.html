@@ -5,27 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - GameHaven</title>
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="base.css">
     <style>
-        :root {
-            --green: #00ffcc;
-            --hoverGreen: #00e6b8;
-            --bg1: #1a1a1a;
-            --bg2: #2d2d2d;
-            --fg1: #f0f0f0;
-        }
-
         /* Reset styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            height: 100%;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-color: var(--bg1);
@@ -33,48 +16,6 @@
             margin: 0;
             display: flex;
             flex-direction: column;
-        }
-
-        /* Navbar */
-        .navbar {
-            background-color: var(--bg2);
-            padding: 1rem 2rem;
-        }
-
-        .navbar .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .navbar .logo {
-            font-size: 1.8rem;
-            color: var(--green);
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-        }
-
-        .nav-links li {
-            margin: 0 1rem;
-        }
-
-        .nav-links a {
-            color: var(--fg1);
-            text-decoration: none;
-        }
-
-        .nav-links .button {
-            background-color: var(--green);
-            color: var(--bg1);
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-        }
-
-        .nav-links .button:hover {
-            background-color: var(--hoverGreen);
         }
 
         /* Privacy Policy Section */
@@ -107,24 +48,6 @@
             line-height: 1.8;
             margin-bottom: 1.5rem;
         }
-
-        /* Footer */
-        footer {
-            background-color: var(--bg2);
-            text-align: center;
-            padding: 1.5rem 0;
-            margin-top: auto;
-        }
-
-        footer p {
-            color: var(--fg1);
-            margin: 0.5rem 0;
-        }
-
-        footer a {
-            color: var(--green);
-            text-decoration: none;
-        }
     </style>
 </head>
 
@@ -141,60 +64,67 @@
             </ul>
         </div>
     </nav>
+    <main>
+        <section class="policy-container">
+            <h2>Pravilnik o zasebnosti</h2>
+            <p>
+                Pri <strong>GameHaven</strong> je vaša zasebnost naša glavna prioriteta. Ta pravilnik o zasebnosti
+                opisuje, kako zbiramo,
+                uporabljamo in varujemo vaše informacije, ko obiščete in uporabljate našo platformo.
+            </p>
 
-    <section class="policy-container">
-        <h2>Privacy Policy</h2>
-        <p>
-            At <strong>GameHaven</strong>, your privacy is a top priority. This Privacy Policy outlines how we collect,
-            use, and protect your information when you visit and use our platform.
-        </p>
+            <h3>1. Informacije, ki jih zbiramo</h3>
+            <p>
+                Lahko zbiramo osebne podatke, kot so vaše ime, e-poštni naslov in druge podrobnosti, ki jih prostovoljno
+                posredujete ob registraciji ali uporabi naših storitev. Poleg tega zbiramo neosebne podatke, kot so
+                IP-naslovi,
+                vrste brskalnikov in podatki o uporabi, za izboljšanje uporabniške izkušnje.
+            </p>
 
-        <h3>1. Information We Collect</h3>
-        <p>
-            We may collect personal information such as your name, email address, and other details you voluntarily
-            provide when signing up or using our services. Additionally, we collect non-personal information such as IP
-            addresses, browser types, and usage data to improve the user experience.
-        </p>
+            <h3>2. Kako uporabljamo vaše informacije</h3>
+            <p>
+                Zbrane informacije uporabljamo za:
+            <ul>
+                <li>Nudenje in izboljšanje naših storitev</li>
+                <li>Komuniciranje z vami o posodobitvah in obvestilih</li>
+                <li>Zagotavljanje varnosti in pravilnega delovanja platforme</li>
+            </ul>
+            </p>
 
-        <h3>2. How We Use Your Information</h3>
-        <p>
-            The information we collect is used to:
-        <ul>
-            <li>Provide and enhance our services</li>
-            <li>Communicate with you regarding updates and announcements</li>
-            <li>Ensure the security and proper functionality of the platform</li>
-        </ul>
-        </p>
+            <h3>3. Deljenje vaših informacij</h3>
+            <p>
+                Vaših osebnih podatkov ne prodajamo ali delimo s tretjimi osebami, razen kadar to zahteva zakon ali je
+                potrebno
+                za zaščito pravic in varnosti naših uporabnikov.
+            </p>
 
-        <h3>3. Sharing Your Information</h3>
-        <p>
-            We do not sell or share your personal information with third parties, except when required by law or to
-            protect the rights and safety of our users.
-        </p>
+            <h3>4. Varnost podatkov</h3>
+            <p>
+                Uvedli smo robustne varnostne ukrepe za zaščito vaših podatkov pred nepooblaščenim dostopom, spremembami
+                ali
+                uničenjem. Vendar noben sistem ni popolnoma varen, zato ne moremo zagotoviti absolutne varnosti.
+            </p>
 
-        <h3>4. Data Security</h3>
-        <p>
-            We implement robust security measures to protect your data from unauthorized access, alteration, or
-            destruction. However, no system is completely secure, and we cannot guarantee absolute security.
-        </p>
+            <h3>5. Vaše pravice</h3>
+            <p>
+                Imate pravico do dostopa, spreminjanja ali izbrisa svojih osebnih podatkov. Za uveljavljanje teh pravic
+                nas
+                kontaktirajte na privacy@gamehaven.com.
+            </p>
 
-        <h3>5. Your Rights</h3>
-        <p>
-            You have the right to access, modify, or delete your personal information. To exercise these rights, please
-            contact us at privacy@gamehaven.com.
-        </p>
+            <h3>6. Spremembe tega pravilnika</h3>
+            <p>
+                Ta pravilnik o zasebnosti lahko občasno posodobimo. Vse spremembe bodo objavljene na tej strani z
+                posodobljenim datumom revizije.
+            </p>
 
-        <h3>6. Changes to This Policy</h3>
-        <p>
-            We may update this Privacy Policy periodically. Any changes will be posted on this page with an updated
-            revision date.
-        </p>
-
-        <h3>Contact Us</h3>
-        <p>
-            If you have any questions or concerns about our Privacy Policy, please contact us at privacy@gamehaven.com.
-        </p>
-    </section>
+            <h3>Kontaktirajte nas</h3>
+            <p>
+                Če imate kakršna koli vprašanja ali pomisleke glede našega pravilnika o zasebnosti, nas kontaktirajte na
+                privacy@gamehaven.com.
+            </p>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>

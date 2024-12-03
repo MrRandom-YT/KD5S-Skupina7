@@ -1,62 +1,12 @@
 <!DOCTYPE html>
 
 <style>
-  /* General Styling */
-  :root {
-    --green: #00ffcc;
-    --hoverGreen: #00e6b8;
-    --bg1: #1a1a1a;
-    --bg2: #2d2d2d;
-    --fg1: #f0f0f0;
-
-    --mainGradient1: #00bd97bf;
-    --mainGradient2: #1a1a1aBF;
-  }
-
   body {
     font-family: Arial, sans-serif;
     background-color: var(--bg1);
     color: var(--fg1);
     margin: 0;
     padding: 0;
-  }
-
-  /* Navbar */
-  .navbar {
-    background-color: var(--bg2);
-    padding: 1rem 2rem;
-  }
-
-  .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .navbar .logo {
-    font-size: 1.8rem;
-    color: var(--green);
-  }
-
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-
-  .nav-links li {
-    margin: 0 1rem;
-  }
-
-  .nav-links a {
-    color: var(--fg1);
-    text-decoration: none;
-  }
-
-  .nav-links .button {
-    background-color: var(--green);
-    color: var(--bg1);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
   }
 
   /* Hero Section */
@@ -146,23 +96,6 @@
     color: var(--green);
     text-decoration: underline;
   }
-
-  /* Footer */
-  footer {
-    background-color: var(--bg2);
-    padding: 1rem;
-    text-align: center;
-  }
-
-  footer p {
-    color: var(--fg1);
-    margin: 0.5rem 0;
-  }
-
-  footer a {
-    color: var(--green);
-    text-decoration: none;
-  }
 </style>
 
 <html lang="en">
@@ -171,6 +104,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>404 - Lost in the GameHaven</title>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="base.css">
 </head>
 
 <body>
@@ -190,19 +125,22 @@
   </nav>
 
   <!-- Hero Section -->
-  <div class="error-hero">
-    <div class="error-content">
-      <h2>You’ve wandered into the glitch zone!</h2>
-      <p>The page you’re looking for doesn’t exist, or maybe a rogue NPC has stolen it.</p>
-      <div class="error-actions">
-        <a href="index.html" class="button">Return to Safe Zone</a>
-        <a href="forums.html" class="button">Explore Forums</a>
+  <main>
+    <div class="error-hero">
+      <div class="error-content">
+        <h2>Zavtrli ste v območje napak!</h2>
+        <p>Stran, ki jo iščete, ne obstaja, ali pa jo je morda ukradel kakšen zlonameren NPC.</p>
+        <div class="error-actions">
+          <a href="index.html" class="button">Vrni se v varno območje</a>
+          <a href="forums.html" class="button">Raziskuj forume</a>
+        </div>
+      </div>
+      <div class="error-animation">
+        <img src="404Error1.png" alt="Napaka 404">
       </div>
     </div>
-    <div class="error-animation">
-      <img src="404Error1.png" alt="404 Error">
-    </div>
-  </div>
+  </main>
+
 
   <!-- Footer -->
   <footer>

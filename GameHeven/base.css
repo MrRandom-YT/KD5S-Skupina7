@@ -1,0 +1,86 @@
+/* Base */
+:root {
+    --navHeight: 65px;
+    --footerHeight: 100px;
+    --mainHeight: calc(100vh - var(--navHeight) - var(--footerHeight));
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    min-height: var(--mainHeight);
+}
+
+/* Navigation */
+
+.navbar {
+    background-color: var(--bg2);
+    padding: 1rem 2rem;
+    min-height: var(--navHeight);
+    height: var(--navHeight);
+    max-height: var(--navHeight);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    color: var(--green);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: var(--fg1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-links .button {
+    background-color: var(--green);
+    color: var(--bg1);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.nav-links .button:hover {
+    background-color: var(--hoverGreen);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--bg2);
+    padding: 2rem 1rem;
+    text-align: center;
+    min-height: var(--footerHeight);
+    height: var(--footerHeight);
+    max-height: var(--footerHeight);
+}
+
+footer p {
+    color: var(--fg1);
+}
+
+footer a {
+    color: var(--green);
+    text-decoration: none;
+}

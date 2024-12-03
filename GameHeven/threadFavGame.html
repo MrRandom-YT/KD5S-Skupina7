@@ -5,26 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thread - What’s your favorite game right now?</title>
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="base.css">
     <style>
-        :root {
-            --green: #00ffcc;
-            --hoverGreen: #00e6b8;
-            --bg1: #1a1a1a;
-            --bg2: #2d2d2d;
-            --fg1: #f0f0f0;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            height: 100%;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-color: var(--bg1);
@@ -161,23 +144,6 @@
         .reply-form button:hover {
             background-color: var(--hoverGreen);
         }
-
-        /* Footer */
-        footer {
-            background-color: var(--bg2);
-            text-align: center;
-            padding: 1.5rem 0;
-        }
-
-        footer p {
-            color: var(--fg1);
-            margin: 0.5rem 0;
-        }
-
-        footer a {
-            color: var(--green);
-            text-decoration: none;
-        }
     </style>
 </head>
 
@@ -195,36 +161,38 @@
         </div>
     </nav>
 
-    <section class="thread-container">
-        <h2>What’s your favorite game right now?</h2>
-        <p>Let’s share some recommendations and discuss what makes those games special!</p>
+    <main>
+        <section class="thread-container">
+            <h2>Katera je trenutno vaša najljubša igra?</h2>
+            <p>Delimo priporočila in razpravljajmo o tem, kaj te igre dela posebne!</p>
 
-        <div class="reply-section">
-            <h3>Replies:</h3>
-            <ul class="replies">
-                <li>
-                    <p class="author">John Smith</p>
-                    <p class="time">Posted: 1 hour ago</p>
-                    <p>My favorite is *The Witcher 3*. It has an amazing story and world-building!</p>
-                </li>
-                <li>
-                    <p class="author">Jane Doe</p>
-                    <p class="time">Posted: 2 hours ago</p>
-                    <p>I’ve been hooked on *Stardew Valley*. It’s so relaxing!</p>
-                </li>
-                <li>
-                    <p class="author">Michael Brown</p>
-                    <p class="time">Posted: Yesterday</p>
-                    <p>*Elden Ring* has been my go-to. Incredible combat and exploration.</p>
-                </li>
-            </ul>
+            <div class="reply-section">
+                <h3>Odgovori:</h3>
+                <ul class="replies">
+                    <li>
+                        <p class="author">France Prešeren</p>
+                        <p class="time">Objavljeno: pred 1 uro</p>
+                        <p>Moja najljubša je The Witcher 3. Ima neverjetno zgodbo in odlično grajen svet!</p>
+                    </li>
+                    <li>
+                        <p class="author">Alenka Bratovšek</p>
+                        <p class="time">Objavljeno: pred 2 urama</p>
+                        <p>Popolnoma sem navdušena nad Stardew Valley. Tako sproščujoča je!</p>
+                    </li>
+                    <li>
+                        <p class="author">Janez Janša</p>
+                        <p class="time">Objavljeno: Včeraj</p>
+                        <p>Elden Ring je moja izbira. Neverjeten bojni sistem in raziskovanje.</p>
+                    </li>
+                </ul>
 
-            <form class="reply-form">
-                <textarea placeholder="Add your reply..."></textarea>
-                <button type="submit">Post Reply</button>
-            </form>
-        </div>
-    </section>
+                <form class="reply-form">
+                    <textarea placeholder="Dodajte svoj odgovor..."></textarea>
+                    <button type="submit">Objavi odgovor</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>

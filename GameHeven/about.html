@@ -5,27 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - GameHaven</title>
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="base.css">
     <style>
-        :root {
-            --green: #00ffcc;
-            --hoverGreen: #00e6b8;
-            --bg1: #1a1a1a;
-            --bg2: #2d2d2d;
-            --fg1: #f0f0f0;
-        }
-
-        /* Reset styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            height: 100%;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-color: var(--bg1);
@@ -33,48 +15,6 @@
             margin: 0;
             display: flex;
             flex-direction: column;
-        }
-
-        /* Navbar */
-        .navbar {
-            background-color: var(--bg2);
-            padding: 1rem 2rem;
-        }
-
-        .navbar .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .navbar .logo {
-            font-size: 1.8rem;
-            color: var(--green);
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-        }
-
-        .nav-links li {
-            margin: 0 1rem;
-        }
-
-        .nav-links a {
-            color: var(--fg1);
-            text-decoration: none;
-        }
-
-        .nav-links .button {
-            background-color: var(--green);
-            color: var(--bg1);
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-        }
-
-        .nav-links .button:hover {
-            background-color: var(--hoverGreen);
         }
 
         /* About Section */
@@ -145,24 +85,6 @@
         .team-card p {
             margin: 0.2rem 0;
         }
-
-        /* Footer */
-        footer {
-            background-color: var(--bg2);
-            text-align: center;
-            padding: 1.5rem 0;
-            margin-top: auto;
-        }
-
-        footer p {
-            color: var(--fg1);
-            margin: 0.5rem 0;
-        }
-
-        footer a {
-            color: var(--green);
-            text-decoration: none;
-        }
     </style>
 </head>
 
@@ -180,38 +102,41 @@
         </div>
     </nav>
 
-    <section class="about-container">
-        <h2>About Us</h2>
-        <p>
-            Welcome to <strong>GameHaven</strong>, a platform created by gamers, for gamers!
-            Our mission is to connect players worldwide, foster friendships, and enhance the gaming experience.
-        </p>
-        <p>
-            Whether you’re here to find your next guild, discuss strategies, or simply meet like-minded people,
-            GameHaven is your go-to destination.
-        </p>
+    <main>
+        <section class="about-container">
+            <h2>O Nas</h2>
+            <p>
+                Dobrodošli na <strong>GameHaven</strong>, platformo, ki smo jo ustvarili igralci za igralce!
+                Naše poslanstvo je povezovati igralce po vsem svetu, spodbujati prijateljstva in izboljševati igralno
+                izkušnjo.
+            </p>
+            <p>
+                Ne glede na to, ali ste tukaj, da najdete svojo naslednjo gildijo, razpravljate o strategijah ali
+                preprosto spoznate somišljenike, je GameHaven vaša idealna destinacija.
+            </p>
 
-        <section class="team-section">
-            <h3>Meet Our Team</h3>
-            <div class="team-grid">
-                <div class="team-card">
-                    <h4>Alen Nađfaluši</h4>
-                    <p>FERI Student</p>
-                    <p>alen.nadfalusi@student.um.si</p>
+            <section class="team-section">
+                <h3>Meet Our Team</h3>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <h4>Alen Nađfaluši</h4>
+                        <p>FERI Študent</p>
+                        <p>alen.nadfalusi@student.um.si</p>
+                    </div>
+                    <div class="team-card">
+                        <h4>David Majcen</h4>
+                        <p>FERI Študent</p>
+                        <p>david.majcen2@student.um.si</p>
+                    </div>
+                    <div class="team-card">
+                        <h4>Aljaž Lackovič</h4>
+                        <p>FERI Študent</p>
+                        <p>aljaz.lackovic@student.um.si</p>
+                    </div>
                 </div>
-                <div class="team-card">
-                    <h4>David Majcen</h4>
-                    <p>FERI Student</p>
-                    <p>david.majcen2@student.um.si</p>
-                </div>
-                <div class="team-card">
-                    <h4>Aljaž Lackovič</h4>
-                    <p>FERI Student</p>
-                    <p>aljaz.lackovic@student.um.si</p>
-                </div>
-            </div>
+            </section>
         </section>
-    </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>

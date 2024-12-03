@@ -6,25 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - GameHaven</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="base.css">
     <style>
-        /* Contact Page Styling */
-        :root {
-            --green: #00ffcc;
-            --hoverGreen: #00e6b8;
-            --bg1: #1a1a1a;
-            --bg2: #2d2d2d;
-            --fg1: #f0f0f0;
-
-            --mainGradient1: #00bd97bf;
-            --mainGradient2: #1a1a1aBF;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-color: var(--bg1);
@@ -135,23 +119,6 @@
         .contact-form button:hover {
             background-color: var(--hoverGreen);
         }
-
-        /* Footer */
-        footer {
-            background-color: var(--bg2);
-            text-align: center;
-            padding: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        footer p {
-            color: var(--fg1);
-        }
-
-        footer a {
-            color: var(--green);
-            text-decoration: none;
-        }
     </style>
 </head>
 
@@ -168,25 +135,26 @@
             </ul>
         </div>
     </nav>
+    <main>
+        <section class="contact-container">
+            <h2>Kontaktirajte nas</h2>
+            <form class="contact-form" action="submit-form.php" method="post">
+                <label for="name">Ime</label>
+                <input type="text" id="name" name="name" placeholder="Vnesite vaše ime" required>
 
-    <section class="contact-container">
-        <h2>Contact Us</h2>
-        <form class="contact-form" action="submit-form.php" method="post">
-            <label for="name">First Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+                <label for="lastname">Priimek</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Vnesite vaš priimek" required>
 
-            <label for="lastname">Last Name</label>
-            <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+                <label for="email">E-pošta</label>
+                <input type="email" id="email" name="email" placeholder="Vnesite vaš e-poštni naslov" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="message">Sporočilo (neobvezno)</label>
+                <textarea id="message" name="message" placeholder="Tukaj napišite svoje sporočilo..."></textarea>
 
-            <label for="message">Message (Optional)</label>
-            <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+                <button type="submit">Pošlji sporočilo</button>
+            </form>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>

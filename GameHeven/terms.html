@@ -5,22 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - GameHaven</title>
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="base.css">
     <style>
-        :root {
-            --green: #00ffcc;
-            --hoverGreen: #00e6b8;
-            --bg1: #1a1a1a;
-            --bg2: #2d2d2d;
-            --fg1: #f0f0f0;
-        }
-
         /* Reset styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         html,
         body {
             height: 100%;
@@ -33,48 +21,6 @@
             margin: 0;
             display: flex;
             flex-direction: column;
-        }
-
-        /* Navbar */
-        .navbar {
-            background-color: var(--bg2);
-            padding: 1rem 2rem;
-        }
-
-        .navbar .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .navbar .logo {
-            font-size: 1.8rem;
-            color: var(--green);
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-        }
-
-        .nav-links li {
-            margin: 0 1rem;
-        }
-
-        .nav-links a {
-            color: var(--fg1);
-            text-decoration: none;
-        }
-
-        .nav-links .button {
-            background-color: var(--green);
-            color: var(--bg1);
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-        }
-
-        .nav-links .button:hover {
-            background-color: var(--hoverGreen);
         }
 
         /* Terms Section */
@@ -107,24 +53,6 @@
             line-height: 1.8;
             margin-bottom: 1.5rem;
         }
-
-        /* Footer */
-        footer {
-            background-color: var(--bg2);
-            text-align: center;
-            padding: 1.5rem 0;
-            margin-top: auto;
-        }
-
-        footer p {
-            color: var(--fg1);
-            margin: 0.5rem 0;
-        }
-
-        footer a {
-            color: var(--green);
-            text-decoration: none;
-        }
     </style>
 </head>
 
@@ -142,59 +70,70 @@
         </div>
     </nav>
 
-    <section class="terms-container">
-        <h2>Terms of Service</h2>
-        <p>Welcome to <strong>GameHaven</strong>. By using our website, you agree to the following terms and conditions.
-            Please read them carefully.</p>
+    <main>
+        <section class="terms-container">
+            <h2>Pogoji uporabe</h2>
+            <p>Dobrodošli na <strong>GameHaven</strong>. Z uporabo naše spletne strani se strinjate z naslednjimi pogoji
+                in določili.
+                Prosimo, da jih natančno preberete.</p>
 
-        <h3>1. Acceptance of Terms</h3>
-        <p>
-            By accessing or using GameHaven, you agree to be bound by these Terms of Service. If you do not agree to
-            these terms, please discontinue use of our platform.
-        </p>
+            <h3>1. Sprejemanje pogojev</h3>
+            <p>
+                Z dostopom do GameHaven ali z uporabo le-tega se strinjate, da boste spoštovali te pogoje uporabe. Če se
+                ne strinjate
+                s temi pogoji, prosimo, prenehajte uporabljati našo platformo.
+            </p>
 
-        <h3>2. Use of the Platform</h3>
-        <p>
-            You agree to use the platform in compliance with all applicable laws and regulations. Any misuse, such as
-            attempting to harm, exploit, or disrupt the platform, is strictly prohibited.
-        </p>
+            <h3>2. Uporaba platforme</h3>
+            <p>
+                Strinjate se, da boste platformo uporabljali v skladu z vsemi veljavnimi zakoni in predpisi. Kakršnakoli
+                zloraba, kot
+                je poskus škodovanja, izkoriščanja ali motenja delovanja platforme, je strogo prepovedana.
+            </p>
 
-        <h3>3. User Accounts</h3>
-        <p>
-            You are responsible for maintaining the confidentiality of your account information. You agree to notify us
-            immediately of any unauthorized access or use of your account.
-        </p>
+            <h3>3. uporabniški računi</h3>
+            <p>
+                Odgovorni ste za ohranjanje zaupnosti informacij o vašem računu. Strinjate se, da nas takoj obvestite o
+                kakršnem koli
+                nepooblaščenem dostopu ali uporabi vašega računa.
+            </p>
 
-        <h3>4. Content Ownership</h3>
-        <p>
-            GameHaven retains ownership of all content and intellectual property on the platform unless explicitly
-            stated otherwise. User-generated content remains the property of the user, but you grant us a license to use
-            it for platform-related purposes.
-        </p>
+            <h3>4. Lastništvo vsebine</h3>
+            <p>
+                GameHaven obdrži lastništvo vse vsebine in intelektualne lastnine na platformi, razen če ni izrecno
+                navedeno drugače.
+                Vsebina, ki jo ustvarijo uporabniki, ostane last uporabnika, vendar nam dajete licenco za njeno uporabo
+                v povezavi z
+                nameni platforme.
+            </p>
 
-        <h3>5. Limitation of Liability</h3>
-        <p>
-            We are not liable for any direct, indirect, incidental, or consequential damages arising from your use of
-            the platform. The platform is provided "as is" without warranties of any kind.
-        </p>
+            <h3>5. Omejitev odgovornosti</h3>
+            <p>
+                Nismo odgovorni za kakršno koli neposredno, posredno, naključno ali posledično škodo, ki nastane zaradi
+                vaše uporabe
+                platforme. Platforma je na voljo "kot je", brez kakršnih koli jamstev.
+            </p>
 
-        <h3>6. Termination</h3>
-        <p>
-            We reserve the right to terminate your access to GameHaven at any time without notice if you violate these
-            terms.
-        </p>
+            <h3>6. Preklic dostopa</h3>
+            <p>
+                Pridržujemo si pravico, da kadarkoli prekinemo vaš dostop do GameHaven, brez predhodnega obvestila, če
+                kršite te
+                pogoje.
+            </p>
 
-        <h3>7. Changes to Terms</h3>
-        <p>
-            We may update these Terms of Service periodically. Continued use of the platform after changes have been
-            made constitutes acceptance of the updated terms.
-        </p>
+            <h3>7. Spremembe pogojev</h3>
+            <p>
+                Te pogoje uporabe lahko občasno posodobimo. Nadaljnja uporaba platforme po spremembah pomeni sprejetje
+                posodobljenih
+                pogojev.
+            </p>
 
-        <h3>Contact Us</h3>
-        <p>
-            If you have any questions about these terms, please contact us at support@gamehaven.com.
-        </p>
-    </section>
+            <h3>Kontaktirajte nas</h3>
+            <p>
+                Če imate kakršna koli vprašanja glede teh pogojev, nas kontaktirajte na support@gamehaven.com.
+            </p>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>
