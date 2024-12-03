@@ -5,65 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - GameHaven</title>
-    <link rel="stylesheet" href="theme.css">
-    <link rel="stylesheet" href="base.css">
-    <style>
-        /* Reset styles */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: var(--bg1);
-            color: var(--fg1);
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Privacy Policy Section */
-        .policy-container {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background-color: var(--bg2);
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            flex-grow: 1;
-        }
-
-        .policy-container h2 {
-            color: var(--green);
-            margin-bottom: 1.5rem;
-            text-align: center;
-            font-size: 2.5rem;
-        }
-
-        .policy-container h3 {
-            color: var(--green);
-            margin-top: 1.5rem;
-            margin-bottom: 0.5rem;
-            font-size: 1.8rem;
-        }
-
-        .policy-container p {
-            font-size: 1.2rem;
-            line-height: 1.8;
-            margin-bottom: 1.5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style/darkTheme.css" id="theme">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="container">
-            <h1 class="logo">GameHaven</h1>
-            <ul class="nav-links">
-                <li><a href="index.html">Domov</a></li>
-                <li><a href="forums.html">Forumi</a></li>
-                <li><a href="about.html">O Nas</a></li>
-                <li><a href="contact.html">Kontakti</a></li>
-                <li><a href="comingsoon.html" class="button">Prijava</a></li>
-            </ul>
+          <h1 class="logo">GameHaven</h1>
+          <ul class="nav-links">
+            <li><a href="index.html">Domov</a></li>
+            <li><a href="forums.html">Forumi</a></li>
+            <li><a href="about.html">O Nas</a></li>
+            <li><a href="contact.html">Kontakti</a></li>
+            <li><a href="comingsoon.html" class="button">Prijava</a></li>
+            <li>
+              <label class="switch">
+                <input type="checkbox" id="themeSwitch">
+                <span class="slider"></span>
+              </label>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
     <main>
         <section class="policy-container">
             <h2>Pravilnik o zasebnosti</h2>
@@ -109,19 +73,13 @@
             <p>
                 Imate pravico do dostopa, spreminjanja ali izbrisa svojih osebnih podatkov. Za uveljavljanje teh pravic
                 nas
-                kontaktirajte na privacy@gamehaven.com.
+                kontaktirajte na {e-naslovu, ki bo dopisan ob končanju strani}
             </p>
 
             <h3>6. Spremembe tega pravilnika</h3>
             <p>
                 Ta pravilnik o zasebnosti lahko občasno posodobimo. Vse spremembe bodo objavljene na tej strani z
                 posodobljenim datumom revizije.
-            </p>
-
-            <h3>Kontaktirajte nas</h3>
-            <p>
-                Če imate kakršna koli vprašanja ali pomisleke glede našega pravilnika o zasebnosti, nas kontaktirajte na
-                privacy@gamehaven.com.
             </p>
         </section>
     </main>
@@ -131,5 +89,5 @@
         <p><a href="privacy.html">Politika Zasebnosti</a> | <a href="terms.html">Pogoji Storitev</a></p>
     </footer>
 </body>
-
+<script src="style/style.js"></script>
 </html>

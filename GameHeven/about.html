@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - GameHaven</title>
-    <link rel="stylesheet" href="theme.css">
-    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style/darkTheme.css" id="theme">
+    <link rel="stylesheet" href="style/style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,91 +16,28 @@
             display: flex;
             flex-direction: column;
         }
-
-        /* About Section */
-        .about-container {
-            max-width: 1100px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background-color: var(--bg2);
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            flex-grow: 1;
-        }
-
-        .about-container h2 {
-            color: var(--green);
-            margin-bottom: 1rem;
-            text-align: center;
-            font-size: 2.5rem;
-        }
-
-        .about-container p {
-            font-size: 1.2rem;
-            line-height: 1.8;
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-
-        .team-section {
-            margin-top: 2rem;
-        }
-
-        .team-section h3 {
-            text-align: center;
-            color: var(--green);
-            margin-bottom: 1rem;
-            font-size: 2rem;
-        }
-
-        .team-grid {
-            display: flex;
-            gap: 1.5rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .team-card {
-            background-color: var(--bg1);
-            padding: 1.5rem;
-            border-radius: 6px;
-            text-align: center;
-            width: 300px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-        }
-
-        .team-card img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 1rem;
-            border: 2px solid var(--green);
-        }
-
-        .team-card h4 {
-            color: var(--green);
-            margin-bottom: 0.5rem;
-        }
-
-        .team-card p {
-            margin: 0.2rem 0;
-        }
     </style>
 </head>
 
 <body>
     <nav class="navbar">
         <div class="container">
-            <h1 class="logo">GameHaven</h1>
-            <ul class="nav-links">
-                <li><a href="index.html">Domov</a></li>
-                <li><a href="forums.html">Forumi</a></li>
-                <li><a href="about.html">O Nas</a></li>
-                <li><a href="contact.html">Kontakti</a></li>
-                <li><a href="comingsoon.html" class="button">Prijava</a></li>
-            </ul>
+          <h1 class="logo">GameHaven</h1>
+          <ul class="nav-links">
+            <li><a href="index.html">Domov</a></li>
+            <li><a href="forums.html">Forumi</a></li>
+            <li><a href="about.html">O Nas</a></li>
+            <li><a href="contact.html">Kontakti</a></li>
+            <li><a href="comingsoon.html" class="button">Prijava</a></li>
+            <li>
+              <label class="switch">
+                <input type="checkbox" id="themeSwitch">
+                <span class="slider"></span>
+              </label>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
 
     <main>
         <section class="about-container">
@@ -143,5 +80,5 @@
         <p><a href="privacy.html">Politika Zasebnosti</a> | <a href="terms.html">Pogoji Storitev</a></p>
     </footer>
 </body>
-
+<script src="style/style.js"></script>
 </html>
