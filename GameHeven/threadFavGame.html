@@ -4,30 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thread - What’s your favorite game right now?</title>
+    <title>Thread - Katera je trenutno vaša najljubša igra?</title>
     <link rel="stylesheet" href="style/darkTheme.css" id="theme">
-    <link rel="stylesheet" href="style/style.css"
-</head>
+    <link rel="stylesheet" href="style/style.css" </head>
 
 <body>
     <nav class="navbar">
         <div class="container">
-          <h1 class="logo">GameHaven</h1>
-          <ul class="nav-links">
-            <li><a href="index.html">Domov</a></li>
-            <li><a href="forums.html">Forumi</a></li>
-            <li><a href="about.html">O Nas</a></li>
-            <li><a href="contact.html">Kontakti</a></li>
-            <li><a href="comingsoon.html" class="button">Prijava</a></li>
-            <li>
-              <label class="switch">
-                <input type="checkbox" id="themeSwitch">
-                <span class="slider"></span>
-              </label>
-            </li>
-          </ul>
+            <h1 class="logo">GameHaven</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Domov</a></li>
+                <li><a href="forums.html">Forumi</a></li>
+                <li><a href="about.html">O Nas</a></li>
+                <li><a href="contact.html">Kontakti</a></li>
+                <li><a href="comingsoon.html" class="button">Prijava</a></li>
+                <li>
+                    <label class="switch">
+                        <input type="checkbox" id="themeSwitch">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 
     <main>
         <section class="thread-container">
@@ -36,7 +35,7 @@
 
             <div class="reply-section">
                 <h3>Odgovori:</h3>
-                <ul class="replies">
+                <ul class="replies collapsed" id="replies">
                     <li>
                         <p class="author">France Prešeren</p>
                         <p class="time">Objavljeno: pred 1 uro</p>
@@ -52,12 +51,23 @@
                         <p class="time">Objavljeno: Včeraj</p>
                         <p>Elden Ring je moja izbira. Neverjeten bojni sistem in raziskovanje.</p>
                     </li>
+                    <li>
+                        <p class="author">Morty Smith</p>
+                        <p class="time">Objavljeno: Včeraj</p>
+                        <p>Moja najljubša igra je Minecraft, dedek Rick mi je celo naredil virtualno različico, ki je še
+                            boljša kot normalna različica.</p>
+                    </li>
                 </ul>
 
-                <form class="reply-form">
-                    <textarea placeholder="Dodajte svoj odgovor..."></textarea>
-                    <button type="submit">Objavi odgovor</button>
-                </form>
+                <div class="replyControlls">
+                    <form class="reply-form">
+                        <textarea placeholder="Dodajte svoj odgovor..."></textarea>
+                        <div class="replyControlls">
+                            <button type="submit">Objavi odgovor</button>
+                            <p id="moreButton" onclick="toggleReplies()">Prikaži več</p>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
@@ -68,4 +78,15 @@
     </footer>
 </body>
 <script src="style/style.js"></script>
+<script>
+    const replies = document.getElementById("replies");
+    const moreButton = document.getElementById("moreButton");
+    moreButton.innerText = "Prikaži " + (replies.classList.contains("collapsed") ? "več" : "manj");
+
+    function toggleReplies() {
+        replies.classList.toggle("collapsed");
+        moreButton.innerText = "Prikaži " + (replies.classList.contains("collapsed") ? "več" : "manj");
+    }
+</script>
+
 </html>

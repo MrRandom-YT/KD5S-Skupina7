@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GameHaven - Coming Soon</title>
+  <title>GameHaven - Prihaja Kmalu</title>
   <link rel="stylesheet" href="style/darkTheme.css" id="theme">
   <link rel="stylesheet" href="style/style.css">
 </head>
@@ -36,6 +36,7 @@
       <h2>Nekaj epskega prihaja!</h2>
       <p>Izboljšujemo se in kmalu bomo zagnali. Ostanite z nami!</p>
       <p>Načrtovan čas zagona je lahko spremenjen.</p>
+      <p>Današnji datum: <span id="datum">1.1.0001</span></p>
       <div id="countdown" class="countdown">
         <div><span id="days">00</span>
           <p>Dni</p>
@@ -50,6 +51,10 @@
           <p>Sekunde</p>
         </div>
       </div>
+      <div class="cookieCliker">
+        <cookie onclick="cookieClick()">🍪</cookie>
+        <p id="cookieValue">Click the cookie!</p>
+      </div>
     </div>
   </main>
 
@@ -59,12 +64,27 @@
   </footer>
 </body>
 <script src="style/style.js"></script>
+
 </html>
 
 <script>
+  let cookiesClicked = localStorage.getItem("cookies") || 0;
+  const cookieValue = document.getElementById("cookieValue");
+
+  function cookieClick() {
+      cookiesClicked++;
+      cookieValue.innerHTML = cookiesClicked;
+      localStorage.setItem("cookies", cookiesClicked);
+  }
+
+  if(cookiesClicked != 0) cookieValue.innerHTML = cookiesClicked;
 
   // Set the launch date
   const launchDate = new Date("2025-12-31T00:00:00").getTime();
+  const dateBox = document.getElementById("datum");
+
+  // Months go from 0 to 11... Why... JS
+  dateBox.innerText = new Date().getDate() + ". " + (new Date().getMonth() + 1) + ". " + new Date().getFullYear();
 
   const updateCountdown = () => {
     const now = new Date().getTime();
@@ -89,6 +109,4 @@
   // Update countdown every second
   const timerInterval = setInterval(updateCountdown, 1000);
   updateCountdown();
-
-
 </script>

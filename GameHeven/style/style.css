@@ -142,7 +142,7 @@ footer a {
     justify-content: center;
     border-top: var(--hoverGreen) solid 1px;
     border-bottom: var(--hoverGreen) solid 1px;
-    background-image: linear-gradient(to bottom right, var(--mainGradient1), var(--mainGradient2)), url('../background.jpg');
+    background-image: linear-gradient(to bottom right, var(--mainGradient1), var(--mainGradient2)), url('../Images/background.jpg');
 }
 
 .home .content h2 {
@@ -405,6 +405,7 @@ footer a {
     justify-content: center;
     gap: 1.5rem;
     margin: 2rem 0;
+    margin-bottom: .25rem;
     padding: 1rem 0;
 
     background: var(--cover);
@@ -524,6 +525,13 @@ footer a {
     padding: 0;
 }
 
+.collapsed {
+    list-style: none;
+    padding: 0;
+    max-height: 22vh;
+    overflow-y: hidden;
+}
+
 .replies li {
     background-color: var(--bg1);
     padding: 1rem;
@@ -543,12 +551,32 @@ footer a {
     opacity: 0.7;
 }
 
+.replyControlls {
+    display: flex;
+    width: 100%;
+}
+.replyControlls p {
+    background-color: var(--green);
+    color: var(--bg1);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    margin: 0;
+    margin-left: auto;
+}
+
+.replyControlls p:hover {
+    background-color: var(--hoverGreen);
+}
 /* Reply Form */
 .reply-form {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .reply-form textarea {
@@ -562,7 +590,7 @@ footer a {
 }
 
 .reply-form textarea::placeholder {
-    color: #aaa;
+    color: var(--fg2);
 }
 
 .reply-form button {
@@ -582,14 +610,14 @@ footer a {
 /* Error Section */
 .error {
     display: flex;
+    padding: 2rem;
+    min-height: var(--mainHeight);
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    min-height: 65vh;
-    padding: 2rem;
-    background-image: linear-gradient(to bottom right, var(--mainGradient1), var(--mainGradient2)), url('background.jpg');
+    background-image: linear-gradient(to bottom right, var(--mainGradient1), var(--mainGradient2)), url('../Images/background.jpg');
     background-size: cover;
     background-position: center;
-
     border-top: var(--hoverGreen) solid 1px;
     border-bottom: var(--hoverGreen) solid 1px;
 }
@@ -665,4 +693,18 @@ footer a {
 .suggestion-links a:hover {
     color: var(--green);
     text-decoration: underline;
+}
+
+/* Cookie Clicker */
+.cookieCliker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+cookie {
+    font-size: 4em;
+    cursor: pointer;
+    user-select: none;
 }
