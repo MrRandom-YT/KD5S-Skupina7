@@ -71,13 +71,20 @@
   let cookiesClicked = localStorage.getItem("cookies") || 0;
   const cookieValue = document.getElementById("cookieValue");
 
-  function cookieClick() {
-      cookiesClicked++;
-      cookieValue.innerHTML = cookiesClicked;
-      localStorage.setItem("cookies", cookiesClicked);
+  function cookieWrite() {
+    if (cookiesClicked == 1) cookieValue.innerHTML = cookiesClicked + " Piškot";
+    else if (cookiesClicked == 2) cookieValue.innerHTML = cookiesClicked + " Piškota";
+    else if (cookiesClicked == 3 || cookiesClicked == 4) cookieValue.innerHTML = cookiesClicked + " Piškoti";
+    else if (cookiesClicked > 4) cookieValue.innerHTML = cookiesClicked + " Piškotov";
   }
 
-  if(cookiesClicked != 0) cookieValue.innerHTML = cookiesClicked;
+  function cookieClick() {
+    cookiesClicked++;
+    cookieWrite();
+    localStorage.setItem("cookies", cookiesClicked);
+  }
+
+  if (cookiesClicked != 0) cookieWrite();
 
   // Set the launch date
   const launchDate = new Date("2025-12-31T00:00:00").getTime();
