@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forumi - GameHaven</title>
+    <link rel="stylesheet" href="style/darkTheme.css" id="theme">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <h1 class="logo">GameHaven</h1>
+          <ul class="nav-links">
+            <li><a href="index.html">Domov</a></li>
+            <li><a href="forums.html">Forumi</a></li>
+            <li><a href="about.html">O Nas</a></li>
+            <li><a href="contact.html">Kontakti</a></li>
+            <li><a href="comingsoon.html" class="button">Prijava</a></li>
+            <li>
+              <label class="switch">
+                <input type="checkbox" id="themeSwitch">
+                <span class="slider"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </main>
+    <section class="forum-container">
+        <h2>GameHaven Forumi</h2>
+
+        <!-- Primer kategorije -->
+        <div class="forum-category">
+            <h3>Splošne razprave</h3>
+            <ul class="forum-threads">
+                <li>
+                    <a href="threadFavGame.html">Katera je trenutno vaša najljubša igra?</a>
+                    <span class="thread-meta">12 odgovorov</span>
+                </li>
+                <li>
+                    <a href="#">Prihajajoče igre</a>
+                    <span class="thread-meta">8 odgovorov</span>
+                </li>
+                <li>
+                    <a href="#">Igralne postavitve: Delite svojo!</a>
+                    <span class="thread-meta">15 odgovorov</span>
+                </li>
+            </ul>
+        </div>
+        <!-- Drug primer kategorije -->
+        <div class="forum-category">
+            <h3>Igralne strategije</h3>
+            <ul class="forum-threads">
+                <li>
+                    <a href="#">Najboljši način za napredovanje v WoW</a>
+                    <span class="thread-meta">5 odgovorov</span>
+                </li>
+                <li>
+                    <a href="#">Kako postati odporen na Tilt?</a>
+                    <span class="thread-meta">10 odgovorov</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>
+        <p><a href="privacy.html">Politika Zasebnosti</a> | <a href="terms.html">Pogoji Storitev</a></p>
+    </footer>
+      <div class="trigger-area" title="Open Calculator"></div>
+
+  <div class="calculator" id="calculator">
+    <div class="calculator-header">
+      <span>Calculator</span>
+      <span class="close-btn" onclick="toggleCalculator()">✕</span>
+    </div>
+    <input type="text" id="result" readonly>
+    <div class="buttons">
+      <button onclick="appendNumber('7')">7</button>
+      <button onclick="appendNumber('8')">8</button>
+      <button onclick="appendNumber('9')">9</button>
+      <button onclick="appendOperator('/')">/</button>
+      <button onclick="appendNumber('4')">4</button>
+      <button onclick="appendNumber('5')">5</button>
+      <button onclick="appendNumber('6')">6</button>
+      <button onclick="appendOperator('*')">*</button>
+      <button onclick="appendNumber('1')">1</button>
+      <button onclick="appendNumber('2')">2</button>
+      <button onclick="appendNumber('3')">3</button>
+      <button onclick="appendOperator('-')">-</button>
+      <button onclick="appendNumber('0')">0</button>
+      <button onclick="clearResult()">C</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendOperator('+')">+</button>
+    </div>
+  </div>
+
+  <script src="script/scripts.js"></script>
+  
+</body>
+<script src="style/style.js"></script>
+</html>

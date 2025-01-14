@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Nas - GameHaven</title>
+    <link rel="stylesheet" href="style/darkTheme.css" id="theme">
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg1);
+            color: var(--fg1);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <h1 class="logo">GameHaven</h1>
+          <ul class="nav-links">
+            <li><a href="index.html">Domov</a></li>
+            <li><a href="forums.html">Forumi</a></li>
+            <li><a href="about.html">O Nas</a></li>
+            <li><a href="contact.html">Kontakti</a></li>
+            <li><a href="comingsoon.html" class="button">Prijava</a></li>
+            <li>
+              <label class="switch">
+                <input type="checkbox" id="themeSwitch">
+                <span class="slider"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <main>
+        <section class="about-container">
+            <h2>O Nas</h2>
+            <p>
+                Dobrodošli na <strong>GameHaven</strong>, platformo, ki smo jo ustvarili igralci za igralce!
+                Naše poslanstvo je povezovati igralce po vsem svetu, spodbujati prijateljstva in izboljševati igralno
+                izkušnjo.
+            </p>
+            <p>
+                Ne glede na to, ali ste tukaj, da najdete svojo naslednjo gildijo, razpravljate o strategijah ali
+                preprosto spoznate somišljenike, je GameHaven vaša idealna destinacija.
+            </p>
+
+            <section class="team-section">
+                <h3>Meet Our Team</h3>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <h4>Alen Nađfaluši</h4>
+                        <p>FERI Študent</p>
+                        <p>alen.nadfalusi@student.um.si</p>
+                    </div>
+                    <div class="team-card">
+                        <h4>David Majcen</h4>
+                        <p>FERI Študent</p>
+                        <p>david.majcen2@student.um.si</p>
+                    </div>
+                    <div class="team-card">
+                        <h4>Aljaž Lackovič</h4>
+                        <p>FERI Študent</p>
+                        <p>aljaz.lackovic@student.um.si</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>
+        <p><a href="privacy.html">Politika Zasebnosti</a> | <a href="terms.html">Pogoji Storitev</a></p>
+    </footer>
+
+      <div class="trigger-area" title="Open Calculator"></div>
+
+  <div class="calculator" id="calculator">
+    <div class="calculator-header">
+      <span>Calculator</span>
+      <span class="close-btn" onclick="toggleCalculator()">✕</span>
+    </div>
+    <input type="text" id="result" readonly>
+    <div class="buttons">
+      <button onclick="appendNumber('7')">7</button>
+      <button onclick="appendNumber('8')">8</button>
+      <button onclick="appendNumber('9')">9</button>
+      <button onclick="appendOperator('/')">/</button>
+      <button onclick="appendNumber('4')">4</button>
+      <button onclick="appendNumber('5')">5</button>
+      <button onclick="appendNumber('6')">6</button>
+      <button onclick="appendOperator('*')">*</button>
+      <button onclick="appendNumber('1')">1</button>
+      <button onclick="appendNumber('2')">2</button>
+      <button onclick="appendNumber('3')">3</button>
+      <button onclick="appendOperator('-')">-</button>
+      <button onclick="appendNumber('0')">0</button>
+      <button onclick="clearResult()">C</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendOperator('+')">+</button>
+    </div>
+  </div>
+
+  <script src="script/scripts.js"></script>
+</body>
+<script src="style/style.js"></script>
+</html>

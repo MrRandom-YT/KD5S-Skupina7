@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti - GameHaven</title>
+    <link rel="stylesheet" href="style/darkTheme.css" id="theme">
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            /* Ensures the body and html span the full viewport */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg1);
+            color: var(--fg1);
+            display: flex;
+            flex-direction: column;
+            /* Allows the footer to sit at the bottom */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <h1 class="logo">GameHaven</h1>
+          <ul class="nav-links">
+            <li><a href="index.html">Domov</a></li>
+            <li><a href="forums.html">Forumi</a></li>
+            <li><a href="about.html">O Nas</a></li>
+            <li><a href="contact.html">Kontakti</a></li>
+            <li><a href="comingsoon.html" class="button">Prijava</a></li>
+            <li>
+              <label class="switch">
+                <input type="checkbox" id="themeSwitch">
+                <span class="slider"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <main>
+        <section class="contact-container">
+            <h2>Kontakti</h2>
+            <ul class="contact-list">
+                <li>
+                    <h3>Alen Nađfaluši</h3>
+                    <p><strong>Vloga:</strong> FERI Student</p>
+                    <p><strong>Email:</strong> alen.nadfalusi@student.um.si</p>
+                </li>
+                <li>
+                    <h3>David Majcen</h3>
+                    <p><strong>Vloga:</strong> FERI Student</p>
+                    <p><strong>Email:</strong> david.majcen2@student.um.si</p>
+                </li>
+                <li>
+                    <h3>Aljaž Lackovič</h3>
+                    <p><strong>Vloga:</strong> FERI Student & AllaOasis Owner</p>
+                    <p><strong>Email:</strong> aljaz.lackovic@student.um.si</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>
+        <p><a href="privacy.html">Politika Zasebnosti</a> | <a href="terms.html">Pogoji Storitev</a></p>
+    </footer>
+      
+    <div class="trigger-area" title="Open Calculator"></div>
+
+  <div class="calculator" id="calculator">
+    <div class="calculator-header">
+      <span>Calculator</span>
+      <span class="close-btn" onclick="toggleCalculator()">✕</span>
+    </div>
+    <input type="text" id="result" readonly>
+    <div class="buttons">
+      <button onclick="appendNumber('7')">7</button>
+      <button onclick="appendNumber('8')">8</button>
+      <button onclick="appendNumber('9')">9</button>
+      <button onclick="appendOperator('/')">/</button>
+      <button onclick="appendNumber('4')">4</button>
+      <button onclick="appendNumber('5')">5</button>
+      <button onclick="appendNumber('6')">6</button>
+      <button onclick="appendOperator('*')">*</button>
+      <button onclick="appendNumber('1')">1</button>
+      <button onclick="appendNumber('2')">2</button>
+      <button onclick="appendNumber('3')">3</button>
+      <button onclick="appendOperator('-')">-</button>
+      <button onclick="appendNumber('0')">0</button>
+      <button onclick="clearResult()">C</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendOperator('+')">+</button>
+    </div>
+  </div>
+
+  <script src="script/scripts.js"></script>
+</body>
+<script src="style/style.js"></script>
+</html>

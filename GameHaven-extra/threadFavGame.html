@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thread - Katera je trenutno vaša najljubša igra?</title>
+    <link rel="stylesheet" href="style/darkTheme.css" id="theme">
+    <link rel="stylesheet" href="style/style.css" </head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">GameHaven</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Domov</a></li>
+                <li><a href="forums.html">Forumi</a></li>
+                <li><a href="about.html">O Nas</a></li>
+                <li><a href="contact.html">Kontakti</a></li>
+                <li><a href="comingsoon.html" class="button">Prijava</a></li>
+                <li>
+                    <label class="switch">
+                        <input type="checkbox" id="themeSwitch">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="thread-container">
+            <h2>Katera je trenutno vaša najljubša igra?</h2>
+            <p>Delimo priporočila in razpravljajmo o tem, kaj te igre dela posebne!</p>
+
+            <div class="reply-section">
+                <h3>Odgovori:</h3>
+                <ul class="replies collapsed" id="replies">
+                    <li>
+                        <p class="author">France Prešeren</p>
+                        <p class="time">Objavljeno: pred 1 uro</p>
+                        <p>Moja najljubša je The Witcher 3. Ima neverjetno zgodbo in odlično grajen svet!</p>
+                    </li>
+                    <li>
+                        <p class="author">Alenka Bratovšek</p>
+                        <p class="time">Objavljeno: pred 2 urama</p>
+                        <p>Popolnoma sem navdušena nad Stardew Valley. Tako sproščujoča je!</p>
+                    </li>
+                    <li>
+                        <p class="author">Janez Janša</p>
+                        <p class="time">Objavljeno: Včeraj</p>
+                        <p>Elden Ring je moja izbira. Neverjeten bojni sistem in raziskovanje.</p>
+                    </li>
+                    <li>
+                        <p class="author">Morty Smith</p>
+                        <p class="time">Objavljeno: Včeraj</p>
+                        <p>Moja najljubša igra je Minecraft, dedek Rick mi je celo naredil virtualno različico, ki je še
+                            boljša kot normalna različica.</p>
+                    </li>
+                </ul>
+
+                <div class="replyControlls">
+                    <form class="reply-form">
+                        <textarea placeholder="Dodajte svoj odgovor..."></textarea>
+                        <div class="replyControlls">
+                            <button type="submit">Objavi odgovor</button>
+                            <p id="moreButton" onclick="toggleReplies()">Prikaži več</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AllaOasis. Vse pravice zadržane.</p>
+        <p><a href="privacy.html">Politika Zasebnosti</a> | <a href="terms.html">Pogoji Storitev</a></p>
+    </footer>
+
+      <div class="trigger-area" title="Open Calculator"></div>
+
+  <div class="calculator" id="calculator">
+    <div class="calculator-header">
+      <span>Calculator</span>
+      <span class="close-btn" onclick="toggleCalculator()">✕</span>
+    </div>
+    <input type="text" id="result" readonly>
+    <div class="buttons">
+      <button onclick="appendNumber('7')">7</button>
+      <button onclick="appendNumber('8')">8</button>
+      <button onclick="appendNumber('9')">9</button>
+      <button onclick="appendOperator('/')">/</button>
+      <button onclick="appendNumber('4')">4</button>
+      <button onclick="appendNumber('5')">5</button>
+      <button onclick="appendNumber('6')">6</button>
+      <button onclick="appendOperator('*')">*</button>
+      <button onclick="appendNumber('1')">1</button>
+      <button onclick="appendNumber('2')">2</button>
+      <button onclick="appendNumber('3')">3</button>
+      <button onclick="appendOperator('-')">-</button>
+      <button onclick="appendNumber('0')">0</button>
+      <button onclick="clearResult()">C</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendOperator('+')">+</button>
+    </div>
+  </div>
+
+  <script src="script/scripts.js"></script>
+</body>
+<script src="style/style.js"></script>
+<script>
+    const replies = document.getElementById("replies");
+    const moreButton = document.getElementById("moreButton");
+    moreButton.innerText = "Prikaži " + (replies.classList.contains("collapsed") ? "več" : "manj");
+
+    function toggleReplies() {
+        replies.classList.toggle("collapsed");
+        moreButton.innerText = "Prikaži " + (replies.classList.contains("collapsed") ? "več" : "manj");
+    }
+</script>
+
+</html>
