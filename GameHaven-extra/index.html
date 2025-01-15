@@ -7,6 +7,7 @@
   <title>GameHaven - Poveži & Igraj</title>
   <link rel="stylesheet" href="style/darkTheme.css" id="theme">
   <link rel="stylesheet" href="style/style.css">
+  
 </head>
 
 <body>
@@ -41,6 +42,18 @@
   </header>
 
   <section class="features">
+    <!-- Fun Fact Button -->
+<button id="funfactBtn" class="button">Kliknite za zabavno dejstvo o gamingu</button>
+
+<!-- Pop-up Fun Fact -->
+<div id="funFactPopup" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" id="closePopup">&times;</span>
+        <h3>Zabavno dejstvo o gamingu</h3>
+        <p id="funFact">Did you know? The first video game was created in 1958 by William Higinbotham and was called 'Tennis for Two'.</p>
+    </div>
+</div>
+
     <div class="container">
       <h2>Zakaj izbrati GameHaven?</h2>
       <div class="feature-cards">
@@ -95,5 +108,6 @@
 
   <script src="script/scripts.js"></script>
   <script src="script/loadCalculator.js"></script>
+  <script src="script/popup.js"></script>
 </body>
 </html>

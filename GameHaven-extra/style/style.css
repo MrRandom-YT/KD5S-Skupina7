@@ -833,4 +833,51 @@ body.light-mode button {
   background-color: #00e6b8;
   color: #333;
 }
-
+/* Pop-up osnovni slog */
+#funFactPopup {
+    display: none; /* Skrijemo popup privzeto */
+    position: fixed; /* Pozicioniramo popup glede na okno brskalnika */
+    top: 0; /* Na vrh strani */
+    left: 0; /* Na levo stran strani */
+    width: 100%; /* Pokrijemo celotno širino zaslona */
+    height: 100%; /* Pokrijemo celotno višino zaslona */
+    background-color: rgba(0, 0, 0, 0.5); /* Polprosojno ozadje */
+    justify-content: center; /* Poravnava vsebine na sredino */
+    align-items: center; /* Poravnava vsebine na sredino */
+    z-index: 9999; /* Zagotovimo, da je na vrhu */
+  }
+  
+  /* Vsebina popupa */
+  .popup-content {
+    background-color: rgb(0, 0, 0); /* Belo ozadje za vsebino */
+    padding: 20px; /* Notranji rob */
+    border-radius: 10px; /* Zaobljeni robovi */
+    width: 300px; /* Določimo širino vsebine */
+    text-align: center; /* Poravnava besedila na sredino */
+    position: relative; /* Potrebno za pozicioniranje gumbov */
+  }
+  
+  /* Gumb za zapiranje popupa */
+  .close-btn {
+    position: absolute; /* Pozicioniramo gumb za zapiranje v zgornji desni kot */
+    top: 10px; /* Od vrha */
+    right: 10px; /* Od desne */
+    font-size: 20px; /* Velikost pisave za gumb */
+    cursor: pointer; /* Kazalec postane roka pri premikanju miške nad gumbom */
+  }
+  
+  /* Stilizacija gumba za prikaz popupa */
+  #funfactBtn {
+    padding: 10px 20px; /* Robovi okoli gumba */
+    background-color: #11ac92; /* Barva ozadja */
+    color: white; /* Barva besedila */
+    border: none; /* Odstranimo robove */
+    border-radius: 5px; /* Zaobljeni robovi */
+    cursor: pointer; /* Kazalec postane roka pri premikanju miške nad gumbom */
+    transition: background-color 0.3s; /* Prehodna animacija za barvo */
+  }
+  
+  #funfactBtn:hover {
+    background-color: #2d3e3d; /* Spremenimo barvo ob prehodu miške */
+  }
+  
